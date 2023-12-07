@@ -33,3 +33,8 @@ h1 {
 a {
   text-decoration: none;
 }
+
+.navbar > a {
+  padding: 10px 20px;
+  color: black;
+}
