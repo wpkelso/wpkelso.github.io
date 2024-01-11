@@ -30,11 +30,28 @@ h1 {
   font-family: "jostregular";
 }
 
-a {
-  text-decoration: none;
+.content {
+  display: flex;
+  justify-content: center;
 }
 
 .navbar > a {
   padding: 10px 20px;
   color: black;
+}
+
+.projectArray {
+  display: grid;
+  max-width: 75%;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.projectCard {
+  margin: 10px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 5px;
 }

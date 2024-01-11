@@ -1,5 +1,6 @@
 ---
 date: 2024-01-03
+publish-date: 2024-MM-DD
 title: ""
 tags:
 ---
@@ -33,6 +34,4 @@ In the United States, the largest contributor towards this strict enforcement of
 A rural environment encourages&mdash;even expects, that one is somewhat self-reliant. The population density makes it simply infeasible for any major collectivization and sharing of resources. In counterpoint, an urban environment requires the expectation that no-one is truly self-reliant. It goes contrary to the entire purpose of the urban model of resource collectivization and sharing.
 
 In between these two regional classifications sits the suburbs. Post-Levittown they have become sprawling tracts of essentially rural land, with residents still expecting urban amenities. Surely anyone can see the conflicting interests in that sentence.
-
-
 

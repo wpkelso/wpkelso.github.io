@@ -6,6 +6,7 @@ h1 {
     font-family: 'jostregular';
 }
 
-a {
-    text-decoration: none;
+.content {
+    display: flex;
+    justify-content: center;
 }
