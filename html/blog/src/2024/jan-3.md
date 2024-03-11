@@ -1,6 +1,6 @@
 ---
 date: 2024-01-03
-publish-date: 2024-MM-DD
+publish-date: YYYY-MM-DD
 title: ""
 tags:
 ---

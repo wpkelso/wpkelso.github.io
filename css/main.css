@@ -1,57 +1,138 @@
 @font-face {
   font-family: "jostbold_italic";
-  src: url("../webfonts/jost-700-bolditalic-webfont.woff2") format("woff2"), url("../webfonts/jost-700-bolditalic-webfont.woff") format("woff");
+  src: url("../webfonts/jost/jost-700-bolditalic-webfont.woff2") format("woff2"), url("../webfonts/jost/jost-700-bolditalic-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "jostbold";
-  src: url("../webfonts/jost-700-bold-webfont.woff2") format("woff2"), url("../webfonts/jost-700-bold-webfont.woff") format("woff");
+  src: url("../webfonts/jost/jost-700-bold-webfont.woff2") format("woff2"), url("../webfonts/jost/jost-700-bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "jostitalic";
-  src: url("../webfonts/jost-400-bookitalic-webfont.woff2") format("woff2"), url("../webfonts/jost-400-bookitalic-webfont.woff") format("woff");
+  src: url("../webfonts/jost/jost-400-bookitalic-webfont.woff2") format("woff2"), url("../webfonts/jost/jost-400-bookitalic-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "jostregular";
-  src: url("../webfonts/jost-400-book-webfont.woff2") format("woff2"), url("../webfonts/jost-400-book-webfont.woff") format("woff");
+  src: url("../webfonts/jost/jost-400-book-webfont.woff2") format("woff2"), url("../webfonts/jost/jost-400-book-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
-html {
-  font-family: sans-serif;
+@font-face {
+  font-family: "monomaniaconeregular";
+  src: url("../webfonts/monomaniacone/monomaniacone-regular-webfont.woff2") format("woff2"), url("../webfonts/monomaniacone/monomaniacone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --cobalt: oklch(50% 0.1608 255.18);
+}
+
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: "liga" 1, "calt" 1;
+}
+
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: InterVariable, sans-serif;
+  }
+}
+body {
+  padding: 50px 10%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
 }
 
 h1 {
-  font-family: "jostregular";
+  font-family: "jostregular", sans-serif;
 }
 
-.content {
+a {
+  text-decoration-line: none;
+}
+
+.overviewContent {
   display: flex;
   justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 0 0 auto;
+  max-width: 100%;
 }
 
 .navbar > a {
   padding: 10px 20px;
   color: black;
+  border-radius: 5px;
+}
+.navbar > a.current {
+  background: var(--cobalt);
+  color: white;
+}
+
+.navbar > img {
+  max-width: 75%;
+  margin: 5px 10px;
+}
+
+.overviewContent {
+  height: 100%;
+  overflow: auto;
+  flex: 2 1 auto;
 }
 
 .projectArray {
-  display: grid;
+  display: flex;
+  flex: 2 1 auto;
   max-width: 75%;
-  grid-template-columns: 1fr 1fr 1fr;
+  flex-flow: column wrap;
 }
 
 .projectCard {
   margin: 10px;
   padding: 5px 10px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  border: 2px solid black;
+  flex: 200px;
+  display: grid;
+  grid-template-columns: [tagColor] 15px [information] auto;
+  grid-template-rows: 1fr;
+  grid-template-areas: "color" "content";
+  column-gap: 10px;
+  color: black;
+  background: white;
+  text-decoration: none;
+  border: 2px dotted black;
   border-radius: 5px;
+}
+.projectCard:hover {
+  background: silver;
+  color: white;
+}
+
+.tag {
+  width: 1fr;
+  height: 1fr;
+  border-radius: 5px;
+}
+
+.legendColorBox {
+  display: flex;
+}
+
+.legendColor {
+  width: 20px;
+  height: 20px;
+  border: 2px dotted black;
+}
+
+.legendLabel {
+  margin: 0px 5px;
 }

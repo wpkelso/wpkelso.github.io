@@ -1,12 +1,28 @@
-html {
-    font-family: sans-serif;
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
+}
+
+body {
+    padding: 50px 10%;
+
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
 }
 
 h1 {
-    font-family: 'jostregular';
+    font-family: 'jostregular', sans-serif;
 }
 
-.content {
+a {
+    text-decoration-line: none;
+}
+
+.overviewContent {
     display: flex;
     justify-content: center;
 }

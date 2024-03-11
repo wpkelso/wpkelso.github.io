@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128"
+   height="128"
+   viewBox="0 0 128 128"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   sodipodi:docname="monogram-alt-ko.svg"
+   inkscape:export-filename="monogram.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     labelstyle="default"
+     inkscape:zoom="2.737234"
+     inkscape:cx="58.453169"
+     inkscape:cy="99.370388"
+     inkscape:window-width="2048"
+     inkscape:window-height="1091"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-weight:normal;font-size:13.3333px;font-family:'Monomaniac One';-inkscape-font-specification:'Monomaniac One';letter-spacing:0px;fill:#000000;stroke:none;stroke-width:9;stroke-opacity:0.499029;fill-opacity:1;font-style:normal;font-stretch:normal;font-variant:normal"
+       x="34.855125"
+       y="53.757267"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         x="34.855125"
+         y="53.757267" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;font-family:'Space Mono';-inkscape-font-specification:'Space Mono Bold';letter-spacing:0px;fill:#000000;stroke-width:9;stroke-opacity:0.499029"
+       x="35.970726"
+       y="50.9296"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         x="35.970726"
+         y="50.9296" /></text>
+    <path
+       style="font-size:8px;font-family:'Black Han Sans';-inkscape-font-specification:'Black Han Sans';letter-spacing:0px;stroke-width:65.5893;stroke-opacity:0.499029"
+       d="M 60.176549,22.825145 V 42.286378 H 51.586676 V 22.825145 Z M 34.316025,34.918546 q -2.408799,0 -3.863168,-1.575194 -1.454375,-1.626001 -1.454375,-4.268256 0,-2.642255 1.454375,-4.217449 1.454369,-1.626001 3.863168,-1.626001 h 9.453411 q 2.408799,0 3.863168,1.626001 1.454369,1.575194 1.454369,4.217449 0,2.642255 -1.454369,4.268256 -1.454369,1.575194 -3.863168,1.575194 z m 3.545031,-6.707264 q -0.318132,0 -0.545377,0.254036 -0.227245,0.203278 -0.227245,0.609754 0,0.355675 0.227245,0.609747 0.227245,0.254097 0.545377,0.254097 h 2.363349 q 0.363605,0 0.545377,-0.254097 0.227245,-0.254036 0.227245,-0.609747 0,-0.406494 -0.227245,-0.609754 -0.181772,-0.254036 -0.545377,-0.254036 z m -0.318132,28.200999 h 22.906331 v 5.03045 H 28.998494 V 49.959077 H 51.45034 V 48.485515 H 28.998494 v -4.979636 h 5.772033 v -1.473568 h -6.681013 v -5.538576 h 21.906457 v 5.538576 h -6.681013 v 1.473568 H 59.994765 V 54.989527 H 37.542924 Z"
+       id="text2-5"
+       aria-label="윌" />
+    <path
+       d="m 61.136991,62.195355 v 23.182551 h -9.034536 v -7.381239 h -3.363919 q -0.816953,3.71796 -3.556149,5.740965 -2.691141,1.968328 -6.968125,1.968328 -5.093944,0 -7.977309,-2.788465 -2.835302,-2.843142 -2.835302,-7.873321 v -2.187038 q 0,-5.030174 2.835302,-7.81864 2.883365,-2.843141 7.977309,-2.843141 4.180878,0 6.872012,1.913653 2.691135,1.913653 3.556144,5.412904 h 3.460037 V 62.195355 Z M 39.896224,72.310378 q 0,-0.929489 -0.432504,-1.421571 -0.432505,-0.492094 -1.249458,-0.492094 -0.768897,0 -1.249458,0.492094 -0.432505,0.492094 -0.432505,1.421571 v 3.280554 q 0,0.874812 0.432505,1.42157 0.480561,0.492095 1.249458,0.492095 0.816947,0 1.249458,-0.492095 0.432504,-0.546758 0.432504,-1.42157 z M 28.362766,103.74899 V 87.346234 h 32.774225 v 16.402756 z m 9.034542,-9.24022 v 2.07768 h 14.705147 v -2.07768 z"
+       id="text11-6-4"
+       style="font-size:8.53323px;font-family:'Black Han Sans';-inkscape-font-specification:'Black Han Sans';letter-spacing:0px;stroke-width:57.6666;stroke-opacity:0.499029"
+       aria-label="엄" />
+    <rect
+       style="font-variation-settings:'wght' 675;fill:none;stroke:#000000;stroke-width:11.6588;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6-1"
+       width="105.29758"
+       height="105.29758"
+       x="11.351231"
+       y="11.776745" />
+    <path
+       d="M 97.63919,23.155182 H 88.604654 V 59.677799 H 97.63919 Z M 84.423776,23.635743 H 63.999944 v 7.208411 H 75.43729 v 6.24729 H 63.999944 V 58.236117 H 85.384897 V 51.027706 H 73.034486 v -6.727851 h 11.38929 z"
+       id="text4"
+       style="font-size:8px;font-family:'Black Han Sans';-inkscape-font-specification:'Black Han Sans';letter-spacing:-0.68px;stroke-width:6.00701"
+       aria-label="리" />
+    <path
+       d="m 71.745856,97.269838 q 4.514743,0.737751 6.59506,2.797312 2.036064,2.05956 2.036064,5.71759 l -4.204907,0.61479 q 0,-2.27473 -1.991792,-3.47358 l -0.177026,2.85879 h -3.496723 v -3.93468 q -1.062285,-0.0615 -1.637691,-0.0615 v 3.99617 h -4.426216 v -8.975994 h 0.575411 q 2.168843,0 4.293432,0.153659 v -1.444764 h -5.311464 v -5.47167 H 80.37701 v 5.47167 h -5.311458 v 1.752161 z M 63.999974,83.652146 H 80.37698 v 5.471665 H 63.999974 Z M 93.213016,98.776083 V 83.344749 h 4.426216 V 104.55515 H 87.458931 V 89.400475 H 86.131064 V 104.55515 H 81.704847 V 83.652146 H 91.885148 V 98.776083 Z M 76.6147,72.509053 q 5.621293,3.258407 6.373749,9.836706 l -6.196705,1.229593 Q 76.393359,79.948062 73.56061,77.765541 70.683571,75.58302 63.999974,75.398587 v -5.779073 q 6.683597,-0.184415 9.560636,-2.366954 2.83278,-2.182521 3.231134,-5.809805 l 6.196705,1.229586 q -0.752456,6.5783 -6.373749,9.836712 z m 6.860629,-2.920271 h 6.196711 v -8.146027 h 6.639325 V 83.575352 H 89.67204 v -8.146027 h -6.196711 z"
+       id="text13"
+       style="font-size:6.14056px;font-family:'Black Han Sans';-inkscape-font-specification:'Black Han Sans';letter-spacing:-0.782922px;stroke-width:6.91623"
+       aria-label="켈소" />
+  </g>
+</svg>

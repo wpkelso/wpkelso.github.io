@@ -1,8 +1,22 @@
 .navbar {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 0 0 auto;
+    max-width: 100%;
 }
 
 .navbar > a {
     padding: 10px 20px;
     color: black;
+    border-radius: 5px;
+
+    &.current {
+        background: var(--cobalt);
+        color: white;
+    }
 }
 
+.navbar > img {
+    max-width: 75%;
+    margin: 5px 10px;
+}
