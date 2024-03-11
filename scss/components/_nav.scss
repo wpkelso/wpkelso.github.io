@@ -3,6 +3,7 @@
     flex-flow: column nowrap;
     flex: 0 0 auto;
     max-width: 100%;
+    margin-left: 10%;
 }
 
 .navbar > a {
@@ -14,9 +15,9 @@
         background: var(--cobalt);
         color: white;
     }
-}
 
-.navbar > img {
-    max-width: 75%;
-    margin: 5px 10px;
+    &:hover {
+        background: silver;
+        color: white;
+    }
 }

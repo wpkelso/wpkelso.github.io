@@ -42,13 +42,6 @@
     font-family: InterVariable, sans-serif;
   }
 }
-body {
-  padding: 50px 10%;
-  display: flex;
-  justify-content: center;
-  flex-flow: row nowrap;
-}
-
 h1 {
   font-family: "jostregular", sans-serif;
 }
@@ -57,9 +50,10 @@ a {
   text-decoration-line: none;
 }
 
-.overviewContent {
-  display: flex;
-  justify-content: center;
+body {
+  display: grid;
+  grid-template-rows: auto 300px;
+  grid-template-columns: 1fr 3fr 1fr;
 }
 
 .navbar {
@@ -67,6 +61,7 @@ a {
   flex-flow: column nowrap;
   flex: 0 0 auto;
   max-width: 100%;
+  margin-left: 10%;
 }
 
 .navbar > a {
@@ -78,30 +73,33 @@ a {
   background: var(--cobalt);
   color: white;
 }
-
-.navbar > img {
-  max-width: 75%;
-  margin: 5px 10px;
-}
-
-.overviewContent {
-  height: 100%;
-  overflow: auto;
-  flex: 2 1 auto;
+.navbar > a:hover {
+  background: silver;
+  color: white;
 }
 
 .projectArray {
-  display: flex;
-  flex: 2 1 auto;
-  max-width: 75%;
-  flex-flow: column wrap;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  justify-items: stretch;
+  align-items: stretch;
+  gap: 10px 10px;
+  margin: 15px;
+}
+
+.projectArray > a {
+  padding: 5px 10px;
 }
 
 .projectCard {
-  margin: 10px;
-  padding: 5px 10px;
-  flex: 200px;
   display: grid;
+  height: 100%;
+  width: 100%;
   grid-template-columns: [tagColor] 15px [information] auto;
   grid-template-rows: 1fr;
   grid-template-areas: "color" "content";
@@ -109,18 +107,22 @@ a {
   color: black;
   background: white;
   text-decoration: none;
-  border: 2px dotted black;
+  border: 2px solid black;
   border-radius: 5px;
+  overflow: clip;
 }
 .projectCard:hover {
   background: silver;
   color: white;
 }
 
-.tag {
-  width: 1fr;
-  height: 1fr;
-  border-radius: 5px;
+.projectCard > .tag {
+  width: 100%;
+  height: 100%;
+}
+
+.legend {
+  margin-right: 10%;
 }
 
 .legendColorBox {
@@ -135,4 +137,13 @@ a {
 
 .legendLabel {
   margin: 0px 5px;
+}
+
+footer {
+  color: white;
+  background: black;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  height: 300px;
+  width: 100%;
 }
