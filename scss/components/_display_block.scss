@@ -33,8 +33,9 @@
     background: white;
     text-decoration: none;
 
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 5px;
+    box-shadow: 5px 5px 10px 8px grey;
     overflow: clip;
 
     &:hover {
