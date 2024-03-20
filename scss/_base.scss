@@ -11,6 +11,7 @@
 
 h1 {
     font-family: 'jostregular', sans-serif;
+    text-transform: uppercase;
 }
 
 a {
@@ -19,4 +20,8 @@ a {
 
 body {
     margin: 0px;
+
+    & > .content {
+        padding: 0px 5vw;
+    }
 }

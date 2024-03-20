@@ -1,40 +1,50 @@
 .titlebar {
-    display: flex;
-    flex: 0 0 auto;
-    flex-flow: row;
+    display: grid;
+    grid-template-columns: [site-title] max-content [page-title] max-content auto [social-icons] max-content;
+    grid-template-rows: auto;
+    justify-items: stretch;
     align-items: center;
-    padding-left: 15px;
-    color: light-dark(var(--color-midnight), var(--color-noon));
+    padding: 0px 5vw;
+    color: var(--sitetheme-text);
 
     width: 1fr;
 
+    font-size: 8pt;
     letter-spacing: 2px;
-}
 
-.titlebar > h1 {
-    text-transform: uppercase;
-}
+    & > h1 {
+        text-transform: uppercase;
+    }
 
-.titlebar > h2 {
-    text-shadow: 0px 0px 1px oklch(26.49% 0.05 282.78 / 10%);
-}
+    & > h2 {
+        text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
+    }
 
-.titlebar ul {
-    list-style-type: none;
-    justify-self: right;
+    & ul {
+        padding: 0px;
+        list-style-type: none;
+        grid-column-start: 4;
+    }
 }
 
 .social-icon {
+    display: inline-block;
+    height: 25px;
+    max-height: 25px;
+    width: 25px;
+    max-width: 25px;
+    padding: 10px;
+
     &#mastodon {
-        height: 25px;
-        width: 25px;
-        padding: 5px;
-        color: var(--color-grape);
+        color: var(--color-db26);
     }
 
-    display: inline-block;
+    &#github {
+        color: var(--color-db01);
+    }
+
     &:hover {
         border-radius: 5px;
-        background: oklch(26.49% 0.05 282.78 / 50%);
+        background: rgba(0, 0, 0, 0.25);
     }
 }

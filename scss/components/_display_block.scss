@@ -7,14 +7,7 @@
     flex: 1 0 250px;
 
     padding: 5px 10px;
-    margin: 0px 5vw;
     max-width: 90vw;
-
-    background: var(--sitetheme-ui-alt);
-
-    border-radius: 15px;
-    border-top: 2px solid oklch(26.49% 0.05 282.78 / 15%);
-    border-bottom: 1px solid oklch(26.49% 0.05 282.78 / 11%);
 }
 
 .project-card {
@@ -54,11 +47,11 @@
     padding: 0px;
     margin: 0px 0px 5px 0px;
 
-    font-size: 10pt;
+    font-family: 'monomaniaconeregular', 'Courier New', Courier, monospace;
+    font-size: 11pt;
 
     & li {
         display: inline-block;
-        font-family: 'Courier New', Courier, monospace;
     }
 }
 
