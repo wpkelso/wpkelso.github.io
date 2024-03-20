@@ -1,0 +1,40 @@
+.titlebar {
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row;
+    align-items: center;
+    padding-left: 15px;
+    color: light-dark(var(--color-midnight), var(--color-noon));
+
+    width: 1fr;
+
+    letter-spacing: 2px;
+}
+
+.titlebar > h1 {
+    text-transform: uppercase;
+}
+
+.titlebar > h2 {
+    text-shadow: 0px 0px 1px oklch(26.49% 0.05 282.78 / 10%);
+}
+
+.titlebar ul {
+    list-style-type: none;
+    justify-self: right;
+}
+
+.social-icon {
+    &#mastodon {
+        height: 25px;
+        width: 25px;
+        padding: 5px;
+        color: var(--color-grape);
+    }
+
+    display: inline-block;
+    &:hover {
+        border-radius: 5px;
+        background: oklch(26.49% 0.05 282.78 / 50%);
+    }
+}

@@ -1,0 +1,45 @@
+.button {
+    padding: 10px 20px;
+    margin: 2px 0px;
+
+    color: var(--sitetheme-text);
+    background: var(--sitetheme-ui);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+
+    &-pressed {
+        padding: 10px 20px;
+        margin: 2px 0px;
+
+        color: var(--sitetheme-text);
+        background: var(--sitetheme-ui-alt);
+        box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+
+        border-top: 1px solid rgba(0, 0, 0, 0.3);
+        border-left: 1px solid rgba(255, 255, 255, 0.3);
+        border-right: 1px solid rgba(255, 255, 255, 0.3);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 5px;
+    }
+
+    &:hover, &:focus, &-pressed:hover, &-pressed:focus {
+        filter: brightness(1.1);
+    }
+
+    &:active, &-pressed:active {
+        background: var(--sitetheme-ui-alt);
+        box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+        filter: brightness(0.8);
+
+        border-top: 1px solid rgba(0, 0, 0, 0.3);
+        border-left: 1px solid rgba(255, 255, 255, 0.3);
+        border-right: 1px solid rgba(255, 255, 255, 0.3);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    }
+}
+
