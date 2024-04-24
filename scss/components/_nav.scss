@@ -1,23 +1,18 @@
 .navbar {
-    display: flex;
-    flex-flow: column nowrap;
-    flex: 0 0 auto;
-    max-width: 100%;
-    margin-left: 10%;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px 5vw;
+
+    background: var(--sitetheme-ui-alt);
+
+    border-top: 2px solid rgba(0, 0, 0, 0.15);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+
+    font-family: 'monomaniaconeregular';
 }
 
-.navbar > a {
-    padding: 10px 20px;
-    color: black;
-    border-radius: 5px;
-
-    &.current {
-        background: var(--cobalt);
-        color: white;
-    }
-
-    &:hover {
-        background: silver;
-        color: white;
-    }
+.navbar li {
+    display: inline-block;
+    padding: 12px 0px;
+    margin: 0px 2px;
 }

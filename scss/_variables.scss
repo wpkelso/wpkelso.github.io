@@ -31,6 +31,7 @@
          url('../webfonts/jost/jost-400-book-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-optical-sizing: auto;
 
 }
 
@@ -44,5 +45,74 @@
 }
 
 :root {
-    --cobalt: oklch(50% 0.1608 255.18);
+    --color-blueberry: oklch(58.35% 0.13 243.44);
+    --color-grape: oklch(48.08% 0.11 301.77);
+    --color-lime: oklch(76.48% 0.19 129.54);
+    --color-lemon: oklch(86.31% 0.16 87.13);
+    --color-watermelon: oklch(68.79% 0.20 22.48);
+
+    --color-noon: oklch(93.97% 0.01 51.32);
+    --color-afternoon: oklch(77.03% 0.03 32.1);
+    --color-evening: oklch(65.62% 0.02 330.46);
+    --color-dusk: oklch(43.14% 0.05 277.8);
+    --color-midnight: oklch(26.49% 0.05 282.78);
+
+    // DB32 Palette (https://lospec.com/palette-list/dawnbringer-32)
+    --color-db00: #000000;
+    --color-db01: #222034;
+    --color-db02: #45283c;
+    --color-db03: #663931;
+    --color-db04: #8f563b;
+    --color-db05: #df7126;
+    --color-db06: #d9a066;
+    --color-db07: #eec39a;
+    --color-db08: #fbf236;
+    --color-db09: #99e550;
+    --color-db10: #6abe30;
+    --color-db11: #37946e;
+    --color-db12: #4b692f;
+    --color-db13: #524b24;
+    --color-db14: #323c39;
+    --color-db15: #3f3f74;
+    --color-db16: #306082;
+    --color-db17: #5b6ee1;
+    --color-db18: #639bff;
+    --color-db19: #5fcd34;
+    --color-db20: #cbdbfc;
+    --color-db21: #ffffff;
+    --color-db22: #9babd7;
+    --color-db23: #847e87;
+    --color-db24: #696a6a;
+    --color-db25: #595652;
+    --color-db26: #76428a;
+    --color-db27: #ac3232;
+    --color-db28: #d95763;
+    --color-db29: #d77bba;
+    --color-db30: #8f974a;
+    --color-db31: #9a6f30;
 }
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --sitetheme-bg: #fafafa;
+
+        --sitetheme-ui: #fafafa;
+        --sitetheme-ui-alt: #acacac;
+
+        --sitetheme-text: var(--color-db01);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --sitetheme-bg: #1a1a1a;
+
+        --sitetheme-ui: #222222;
+        --sitetheme-ui-alt: #111111;
+
+        --sitetheme-text: #fafafa;
+
+    }
+
+}
+
