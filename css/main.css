@@ -76,18 +76,18 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --sitetheme-bg: var(--color-db21);
-    --sitetheme-ui: var(--color-db20);
-    --sitetheme-ui-alt: var(--color-db22);
+    --sitetheme-bg: #fafafa;
+    --sitetheme-ui: #fafafa;
+    --sitetheme-ui-alt: #acacac;
     --sitetheme-text: var(--color-db01);
   }
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --sitetheme-bg: var(--color-db01);
-    --sitetheme-ui: var(--color-db00);
-    --sitetheme-ui-alt: var(--color-db26);
-    --sitetheme-text: var(--color-db20);
+    --sitetheme-bg: #1a1a1a;
+    --sitetheme-ui: #222222;
+    --sitetheme-ui-alt: #111111;
+    --sitetheme-text: #fafafa;
   }
 }
 :root {
@@ -136,10 +136,10 @@ body > .content {
   color: var(--sitetheme-text);
   background: var(--sitetheme-ui-alt);
   box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
-  border-top: 1px solid rgba(0, 0, 0, 0.3);
-  border-left: 1px solid rgba(255, 255, 255, 0.3);
-  border-right: 1px solid rgba(255, 255, 255, 0.3);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 5px;
 }
 .button:hover, .button:focus, .button-pressed:hover, .button-pressed:focus {
@@ -149,10 +149,10 @@ body > .content {
   background: var(--sitetheme-ui-alt);
   box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
   filter: brightness(0.8);
-  border-top: 1px solid rgba(0, 0, 0, 0.3);
-  border-left: 1px solid rgba(255, 255, 255, 0.3);
-  border-right: 1px solid rgba(255, 255, 255, 0.3);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .titlebar {

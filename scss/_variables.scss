@@ -94,10 +94,10 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-        --sitetheme-bg: var(--color-db21);
+        --sitetheme-bg: #fafafa;
 
-        --sitetheme-ui: var(--color-db20);
-        --sitetheme-ui-alt: var(--color-db22);
+        --sitetheme-ui: #fafafa;
+        --sitetheme-ui-alt: #acacac;
 
         --sitetheme-text: var(--color-db01);
     }
@@ -105,12 +105,12 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --sitetheme-bg: var(--color-db01);
+        --sitetheme-bg: #1a1a1a;
 
-        --sitetheme-ui: var(--color-db00);
-        --sitetheme-ui-alt: var(--color-db26);
+        --sitetheme-ui: #222222;
+        --sitetheme-ui-alt: #111111;
 
-        --sitetheme-text: var(--color-db20);
+        --sitetheme-text: #fafafa;
 
     }
 
