@@ -232,6 +232,10 @@ nav li a, .dropdown-button {
     border-bottom: 2px solid #0004;
 }
 
+#active {
+    text-decoration: underline;
+}
+
 nav a:hover, nav li a:hover, .dropdown-button:hover {
     filter: brightness(110%);
 }
