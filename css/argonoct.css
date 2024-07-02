@@ -1,0 +1,261 @@
+/* font stack */
+:root {
+    font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        sans-serif;
+    font-feature-settings:
+        "liga" 1,
+        "calt" 1,
+        "dlig" 1,
+        "case" 1,
+        "ss02" 1,
+        "ss03" 1;
+}
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family:
+            InterVariable,
+            -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            "Apple Color Emoji",
+            "Segoe UI Emoji",
+            "Segoe UI Symbol",
+            sans-serif;
+    }
+}
+
+:root {
+    --fontstack-header: Jost, Inter, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        sans-serif;
+    --fontstack-mono: "0xProto", monospace;
+}
+
+/* color vars */
+@media (prefers-color-scheme: light) {
+    :root {
+        --color-black: #0e1019;
+        --color-white: #fffaf4;
+        --color-grey: #232323;
+        --color-silver: #5a5a5a;
+        --color-purple: #6d43a6;
+        --color-magenta: #8951d6;
+        --color-red: #d61f17;
+        --color-orange: #ea0715;
+        --color-yellow: #c78900;
+        --color-lime: #81cc0f;
+        --color-green: #4c7e00;
+        --color-cyan: #02adbd;
+        --color-sky: #0283e5;
+        --color-blue: #056dbc;
+
+        --color-fg: var(--color-black);
+        --color-bg: var(--color-white);
+    }
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-black: #0e1019;
+        --color-white: #fffaf4;
+        --color-grey: #232323;
+        --color-silver: #444444;
+        --color-purple: #9a5feb;
+        --color-magenta: #e67bf7;
+        --color-red: #ff000f;
+        --color-orange: #f87810;
+        --color-yellow: #ffb900;
+        --color-lime: #8ce10b;
+        --color-green: #0eb75b;
+        --color-cyan: #99d8eb;
+        --color-sky: #4dbcff;
+        --color-blue: #0092ff;
+
+        --color-fg: var(--color-white);
+        --color-bg: var(--color-black);
+    }
+}
+
+/* base styling */
+body {
+    color: var(--color-fg);
+    background: var(--color-bg);
+
+    font-variant-numeric: oldstyle-nums;
+
+    max-width: 65%;
+
+    margin: auto;
+}
+
+/* heading styling */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--fontstack-header);
+}
+
+h1 {
+    font-size: 24pt;
+    text-align: left;
+}
+
+h2 {
+    font-size: 20pt;
+    text-align: left;
+}
+
+h3 {
+    font-size: 16pt;
+    text-align: left;
+}
+
+h4 {
+    font-size: 14pt;
+    text-align: left;
+}
+
+h5 {
+    font-size: 13pt;
+    text-align: left;
+}
+
+h6 {
+    font-size: 12pt;
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 2.5ex;
+}
+
+/* body copy styling */
+section {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+p {
+    font-size: 12pt;
+    font-variant-numeric: oldstyle-nums;
+    hyphens: auto;
+
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+/* raw text styling */
+pre {
+    font-family: var(--fontstack-mono);
+    font-feature-settings:
+        "calt" 1,
+        "dlig" 1,
+        "liga" 1,
+        "ss01" 1;
+}
+
+/* list styling */
+ul {
+    list-style-type: "\27a5";
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+}
+
+/* image */
+img {
+    border: 1px solid #0002;
+}
+
+/* navbar */
+nav {
+    padding: 10px 0;
+
+    display: flex;
+    flex-direction: row;
+
+    background: var(--color-bg);
+}
+
+nav ul {
+    display: inherit;
+    flex-direction: inherit;
+    gap: 20px;
+
+    list-style-type: none;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li a, .dropdown-button {
+    display: inline-block;
+    min-width: 100px;
+
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px 10px;
+
+    text-decoration: none;
+    text-align: center;
+
+    color: var(--color-fg);
+    background-color: var(--color-bg);
+
+    border-radius: 5px;
+    border-top: 1px solid #0002;
+    border-left: 1px solid #0002;
+    border-right: 1px solid #0002;
+    border-bottom: 2px solid #0004;
+}
+
+nav a:hover, nav li a:hover, .dropdown-button:hover {
+    filter: brightness(110%);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+
+    min-width: 100px;
+
+    z-index: 1;
+
+    background-color: var(--color-bg);
+
+    border-radius: 5px;
+    border-top: 1px solid #0002;
+    border-left: 1px solid #0002;
+    border-right: 1px solid #0002;
+    border-bottom: 2px solid #0004;
+}
+
+.dropdown-content a {
+    border: none;
+}
+
+:is(.dropdown:hover, .dropdown:focus-within) .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
