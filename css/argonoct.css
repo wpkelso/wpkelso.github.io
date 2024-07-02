@@ -10,10 +10,11 @@
         "Segoe UI Symbol",
         sans-serif;
     font-feature-settings:
-        "liga" 1,
         "calt" 1,
         "dlig" 1,
         "case" 1,
+        "ccmp" 1,
+        "salt" 1,
         "ss02" 1,
         "ss03" 1;
 }
@@ -144,7 +145,7 @@ h6 {
 }
 
 /* body copy styling */
-section {
+.columned p {
     -moz-column-count: 2;
     -moz-column-gap: 20px;
     -webkit-column-count: 2;
@@ -203,6 +204,8 @@ nav ul {
 
     list-style-type: none;
     text-transform: uppercase;
+    font-feature-settings:
+        "cpsp" 1;
     margin: 0;
     padding: 0;
     overflow: hidden;
