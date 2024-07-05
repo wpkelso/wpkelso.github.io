@@ -182,9 +182,47 @@ ol {
     list-style-type: decimal-leading-zero;
 }
 
-/* image */
+dt {
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 30px;
+}
+
+/* image styling */
 img {
     border: 1px solid #0002;
+}
+
+/* table styling */
+table {
+    font-variant-numeric: tabular-nums;
+
+    border-collapse: collapse;
+    border-top: 2px solid var(--color-fg);
+    border-bottom: 2px solid var(--color-fg);
+
+    padding: 2px 5px;
+}
+
+th, td {
+    padding: 2px 5px;
+}
+
+thead tr {
+    border-bottom: 1px solid var(--color-fg);
+    text-align: center;
+}
+
+td {
+    text-align: left;
+}
+
+.tnum {
+    text-align: right;
 }
 
 /* navbar */
@@ -266,3 +304,36 @@ nav a:hover, nav li a:hover, .dropdown-button:hover {
     flex-direction: column;
 }
 
+
+/* footnote styling */
+.footnote-ref {
+    font-size: 8pt;
+    vertical-align: super;
+}
+
+.footnote {
+    font-size: 10pt;
+    text-align: left;
+}
+
+.footnote ol li p {
+    font-size: 10pt;
+}
+
+.footnote::before {
+    content: "";
+    display: block;
+    position: relative;
+    top: -3px;
+    left: 0;
+
+    height: 1px;
+    width: 10%;
+    background-color: var(--color-fg);
+}
+
+/* body footer styling */
+body footer {
+    margin: 10px 0;
+    text-align: center;
+}
