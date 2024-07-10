@@ -407,6 +407,7 @@ td {
 
 /* footnote styling */
 .footnote-ref {
+  text-decoration: none;
   font-size: 8pt;
   vertical-align: super;
 }
