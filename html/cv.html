@@ -18,10 +18,19 @@
 			type="text/css"
 			charset="utf-8"
 		/>
+
+		<script src="https://kit.fontawesome.com/25cefc9777.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="/css/argonoct.css" />
 	</head>
 	<body>
 		<nav>
+			<button class="fa-solid fa-bars" id="nav-expander"
+				onclick="toggle_nav_visibility('nav-list')">
+				<span hidden aria-hidden="false">
+					View Navigation Menu
+				</span>
+			</button>
+
 			<ul>
 				<li><a href="/index.html">Home</a></li>
 				<li><a href="/html/cv.html" id="active">Curriculum Vit&aelig;</a></li>
@@ -89,7 +98,7 @@
 					<address>Gangnam, Seoul, Republic of Korea</address>
 				</li>
 				<li>
-					<h3>Principle Electrical Engineer, Electrical Team</h3>
+					<h3>Lead Electrical Engineer, Electrical Team</h3>
 
 					<span>
 						<time datetime="2022-08">Aug. 2022</time>
@@ -243,5 +252,7 @@
 			Copyright &copy; 2023 William Kelso.
 		</small>
 	</footer>
+
+	<script src="/scripts/navbar.js"></script>
 </html>
 
