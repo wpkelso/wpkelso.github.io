@@ -330,6 +330,8 @@ td {
     right: 15%;
 
     cursor: pointer;
+    border: none;
+    background-color: var(--color-bg);
   }
 
   nav ul {
