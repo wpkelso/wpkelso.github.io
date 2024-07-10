@@ -16,11 +16,19 @@
 			type="text/css"
 			charset="utf-8"
 		/>
+		<script src="https://kit.fontawesome.com/25cefc9777.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="/css/argonoct.css" />
 	</head>
 	<body>
 		<nav>
-			<ul>
+			<button class="fa-solid fa-bars" id="nav-expander"
+				onclick="toggle_nav_visibility('nav-list')">
+				<span hidden aria-hidden="false">
+					View Navigation Menu
+				</span>
+			</button>
+
+			<ul id="nav-list">
 				<li><a href="/index.html" id="active">Home</a></li>
 				<li><a href="/html/cv.html">Curriculum Vit&aelig;</a></li>
 				<li><a href="/html/projects.html">Projects</a></li>
@@ -56,4 +64,6 @@
 			Copyright &copy; William Kelso 2023.
 		</small>
 	</footer>
+
+	<script src="/scripts/navbar.js"></script>
 </html>
