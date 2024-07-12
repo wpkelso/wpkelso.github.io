@@ -243,9 +243,10 @@ td {
   }
 
   nav ul {
-    display: flex;
-    flex-direction: flex;
+    display:inherit;
+    flex-direction: inherit;
     gap: 20px;
+    width: 100%;
 
     list-style-type: none;
     text-transform: uppercase;
@@ -254,18 +255,6 @@ td {
     margin: 0;
     padding: 0;
     overflow: auto;
-  }
-
-  nav li a, .dropdown-button {
-    display: inline-block;
-    min-width: 100px;
-
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: 10px 10px;
-
-    text-decoration: none;
-    text-align: center;
 
     color: var(--color-fg);
     background-color: var(--color-bg);
@@ -275,13 +264,28 @@ td {
     border-left: 1px solid #0002;
     border-right: 1px solid #0002;
     border-bottom: 2px solid #0004;
+
+  }
+
+  nav li a, .dropdown-button {
+    display: inline-block;
+    flex-direction: column; /* this is set here so it can be inherited */
+
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px 10px;
+
+    text-decoration: none;
+    text-align: center;
+    color: inherit;
+    background-color: inherit;
   }
 
   #active {
     text-decoration: underline;
   }
 
-  nav a:hover, nav li a:hover, .dropdown-button:hover {
+  nav a:hover, nav li a:hover, .dropdown-button:hover, #nav-expander:hover {
     filter: brightness(110%);
   }
 
@@ -327,17 +331,18 @@ td {
   #nav-expander {
     display: block;
     position: absolute;
+    top: 10px;
     right: 15%;
 
     cursor: pointer;
     border: none;
+    color: var(--color-fg);
     background-color: var(--color-bg);
   }
 
   nav ul {
     display: none;
     flex-direction: inherit;
-    gap: 20px;
 
     list-style-type: none;
     text-transform: uppercase;
@@ -346,27 +351,26 @@ td {
     margin: 0;
     padding: 0;
     overflow: hidden;
-  }
-
-  nav li a, .dropdown-button {
-    display: inline-block;
-    min-width: 100px;
-
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: 10px 10px;
-
-    text-decoration: none;
-    text-align: center;
-
-    color: var(--color-fg);
-    background-color: var(--color-bg);
 
     border-radius: 5px;
     border-top: 1px solid #0002;
     border-left: 1px solid #0002;
     border-right: 1px solid #0002;
     border-bottom: 2px solid #0004;
+  }
+
+  nav li a, .dropdown-button {
+    display: inline-block;
+    flex-direction: column; /* this is set here so it can be inherited */
+    width: 100%;
+
+    padding: 10px;
+
+    text-decoration: none;
+    text-align: left;
+
+    color: var(--color-fg);
+    background-color: var(--color-bg);
   }
 
   #active {

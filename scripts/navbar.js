@@ -20,7 +20,7 @@ function onWindowResize() {
             document.getElementById('nav-list').style.display = 'inherit';
             // console.log('Window is wider than 1000px, default to showing nav-links');
         }
-    }, 100);
+    }, 10);
 }
 
 function toggle_nav_visibility(id) {
