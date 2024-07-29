@@ -59,6 +59,9 @@
 
     --color-fg: var(--color-black);
     --color-bg: var(--color-white);
+
+    --color-linkedin: var(--color-blue);
+    --color-github: var(--color-black);
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -80,6 +83,9 @@
 
     --color-fg: var(--color-white);
     --color-bg: var(--color-black);
+
+    --color-linkedin: var(--color-blue);
+    --color-github: var(--color-white);
   }
 }
 
@@ -225,16 +231,35 @@ td {
   text-align: right;
 }
 
+/* link styling */
+a {
+  color: var(--color-blue);
+}
+
 /* navbar */
+.fa-linkedin {
+  color: var(--color-linkedin);
+}
+
+.fa-github {
+  color: var(--color-github);
+}
+
+
 @media all and (min-width: 1000px) {
   /* desktop display */
   nav {
-    padding: 10px 0;
+    margin: 10px 0;
     width: 100%;
+    height: 45px;
 
     display: inline-block;
 
     background: var(--color-bg);
+
+    border-radius: 5px;
+    border: 1px solid #0002;
+    border-bottom: 2px solid #0004;
   }
 
   #nav-expander {
@@ -244,7 +269,7 @@ td {
   nav ul {
     display:inherit;
     flex-direction: inherit;
-    width: 100%;
+    width: calc(100% - 2px);
 
     list-style-type: none;
     text-transform: uppercase;
@@ -258,11 +283,7 @@ td {
     background-color: var(--color-bg);
 
     border-radius: 5px;
-    border-top: 1px solid #0002;
-    border-left: 1px solid #0002;
-    border-right: 1px solid #0002;
-    border-bottom: 2px solid #0004;
-
+    border: 1px solid #FFFF;
   }
 
   nav li {
@@ -304,9 +325,7 @@ td {
     background-color: var(--color-bg);
 
     border-radius: 5px;
-    border-top: 1px solid #0002;
-    border-left: 1px solid #0002;
-    border-right: 1px solid #0002;
+    border: 1px solid #0002;
     border-bottom: 2px solid #0004;
   }
 
@@ -327,12 +346,16 @@ td {
 @media all and (max-width: 999px) {
   /* mobile display */
   nav {
-    padding: 10px 0;
+    margin: 10px 0;
     width: 100%;
 
     display: block;
 
     background: var(--color-bg);
+
+    border-radius: 5px;
+    border: 1px solid #0002;
+    border-bottom: 2px solid #0004;
   }
 
   #nav-expander {
@@ -358,11 +381,11 @@ td {
     padding: 0;
     overflow: hidden;
 
-    border-radius: 5px;
-    border-top: 1px solid #0002;
-    border-left: 1px solid #0002;
-    border-right: 1px solid #0002;
-    border-bottom: 2px solid #0004;
+    border-radius: 4px;
+    border-top: 1px solid #F00F;
+    border-left: 1px solid #F00F;
+    border-right: 1px solid #F00F;
+    border-bottom: 1px solid #F00F;
   }
 
   nav li a, .dropdown-button {
