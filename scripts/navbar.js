@@ -14,11 +14,11 @@ function onWindowResize() {
         console.log(windowWidth + 'x' + windowHeight);
         if (windowWidth < 1000) {
             document.getElementById('nav-list').style.display = 'none';
-            // console.log('Window is thinner than 1000px, default to hiding nav-links');
+            console.log('Window is thinner than 1000px, default to hiding nav-links');
         }
         else {
             document.getElementById('nav-list').style.display = 'inherit';
-            // console.log('Window is wider than 1000px, default to showing nav-links');
+            console.log('Window is wider than 1000px, default to showing nav-links');
         }
     }, 10);
 }
@@ -28,10 +28,10 @@ function toggle_nav_visibility(id) {
 
     if(element.style.display == 'inherit') {
         element.style.display = 'none';
-        // console.log('Hiding');
+        console.log('Hiding navbar');
     }
     else {
         element.style.display = 'inherit';
-        // console.log('Showing');
+        console.log('Showing navbar');
     }
 }
