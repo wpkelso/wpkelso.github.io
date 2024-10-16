@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<title>Blackbird :: William Kelso</title>
+		<title>Site currently under construction!</title>
 		<meta name="viewport" content="width=device-width, intitial-scale=1" />
 
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link
 			rel="stylesheet"
-			href="https://indestructibletype.com/fonts/Jost.css"
-			type="text/css"
-			charset="utf-8"
+			href="https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300..700;1,300..700&display=swap"
 		/>
 		<link
 			rel="stylesheet"
@@ -21,76 +21,73 @@
 	</head>
 	<body>
 		<nav>
-			<button role="button" id="nav-expander" onclick="toggle_nav_visibility('nav-list')">
-				<i class="fa-solid fa-bars fg-size-2x">
-				</i>
-				<span hidden aria-hidden="false">
-					View Navigation Menu
-				</span>
-			</button>
-
-			<ul id="nav-list">
+			<ul class="linkbar" id="nav-list">
+				<li><img src="monogram.svg" height="18pt"></li>
 				<li><a href="/index.html" id="active">Home</a></li>
-				<li><a href="/html/projects.html">Projects</a></li>
-				<li id="social">
-					<a href="https://github.com/wpkelso" title="Github"><i class="fa-brands fa-github"></i></a>
-					<a href="https://mastodon.online/@mirlo" title="Mastodon"><i class="fa-brands fa-mastodon"></i></a>
-				</li>
+				<li><a href="#Portfolio">Portfolio</a></li>
+				<li><a href="#Projects">Projects</a></li>
 			</ul>
+			<hr>
 		</nav>
 
-		<!--Begin page content-->
-		<h1>Blackbird, <p>or the work of William Kelso</p></h1>
+		<h1>William P. Kelso</h1>
 		<p>
-			Just a guy interested in low-level programming, design, and working toward a more sustainable society.
+			Programmer and amateur designer focused on creating tools,
+			systems, and ideas that work with a user, not against them.
+			Emphasis on form through functionality, accessibility by design, and sustainability.
 			Prone to being a massive nerd.
 		</p>
 
-		<details>
-			<summary>Why Blackbird?</summary>
-			<p>
-				A while ago, I was searching for a new tag to use in online
-				games. I decided to achieve that by manipulating my name into
-				something else. I went from &ldquo;Will&rdquo;, to
-				&ldquo;Willow&rdquo;, to &ldquo;Wirlo&rdquo;, then
-				finally settled on &ldquo;Mirlo&rdquo;. Unbeknownst to me at the time, Mirlo
-				was already a word&mdash;Blackbird&mdash;in Spanish. When it
-				came time to name this site, I decided to just go with the
-				english name, and thus settled on &ldquo;Blackbird.&rdquo; <i>Besides, they've
-				a pleasant song.</i>
-			</p>
-		</details>
+		<section>
+			<h2>Portfolio</h2>
 
-		<details>
-			<summary>Why such a basic site?</summary>
-			<p>
-				When I set out to make this site, I wanted to do it in as
-				<a
-					href="https://developer.mozilla.org/en-US/curriculum/core/semantic-html/">
-					semantic
-				</a> a way as possible, with the added benefit of wanting to do
-				as little long-term infrastructure maintenence as possible.
-			</p>
-		</details>
+			<ul class="gallery">
+				<a href=""><li>
+					<h3>Appcons</h3>
+					<p>A collection of opinionated icons for third-party applications that strives to better mesh with the visual language of elementary OS</p>
+					<img>
+				</li></a>
+				<a href=""><li>
+					<h3>AquaPack Robotics Website</h3>
+					<p>Rewrite and redesign of AquaPack Robotics&rsquo; website</p>
+				</li></a>
+				<a href=""><li>
+					<h3>elementary OS icons</h3>
+					<p>Open source system icon scheme, supporting the FreeDesktop specification</p>
+				</li></a>
+			</ul>
+		</section>
 
 		<section>
-			<h2>Featured Projects</h2>
-			<dl>
-				<dt><a href="#">Argonoct</a></dt>
-				<dd>High contrast color scheme derived from Argonaut with
-					Noctis-like highlighting</dd>
-
-				<dt><a href="#">AquaPack Website</a></dt>
-				<dd>Performance-oriented rewrite of AquaPack Robotics&rsquo; website</dd>
-			</dl>
+			<h2 id="Projects">Projects</h2>
+			<ul class="gallery">
+				<a href=""><li>
+					<h3>Argonoct</h3>
+					<p>High contrast color scheme derived from Argonaut with
+						Noctis-like highlighting</p>
+				</li></a>
+				<a href=""><li>
+					<h3>SeaWolf VIII</h3>
+					<p>AUV</p>
+				</li></a>
+				<a href=""><li>
+					<h3>SeaWolf IX</h3>
+					<p>AUV</p>
+				</li></a>
+			</ul>
 		</section>
-		<!--End Page Content-->
 	</body>
 	<footer>
+		<hr>
+		<ul class="linkbar">
+			<li><a href="https://github.com/wpkelso" title="Github"><i
+				class="fa-brands fa-github"></i> GitHub</a></li>
+			<li><a href="https://mastodon.online/@mirlo" title="Mastodon"><i
+				class="fa-brands fa-mastodon"></i> Mastodon</a></li>
+		</ul>
 		<small>
 			Copyright &copy; 2024 William Kelso.
 		</small>
+		<div><img src="monogram.svg" height="18pt"> </div>
 	</footer>
-
-	<script src="/scripts/navbar.js"></script>
 </html>
