@@ -212,7 +212,8 @@ pre {
   text-decoration: none;
   hyphens: manual;
 
-  width: 20vw;
+  width: 33%;
+  width: calc(100% / 3 - 10px);
   padding: 10px 10px 36pt 10px;
   border-radius: 5px;
 
@@ -243,4 +244,13 @@ nav {
 
   background: var(--color-bg);
 
+}
+
+/* details control */
+details {
+  cursor: pointer;
+}
+
+details p, details h1, details h2, details h3, details h4, details h5, details h6 {
+  cursor: text;
 }
