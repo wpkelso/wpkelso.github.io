@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build-ghpages": "npx @11ty/eleventy --pathprefix=/wpkelso.github.io/",
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=/wpkelso.github.io/"
   },
   "repository": {
     "type": "git",
