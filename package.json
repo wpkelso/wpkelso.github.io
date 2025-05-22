@@ -1,0 +1,24 @@
+{
+  "name": "wpkelso.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=/wpkelso.github.io/",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wpkelso/wpkelso.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wpkelso/wpkelso.github.io/issues"
+  },
+  "homepage": "https://github.com/wpkelso/wpkelso.github.io#readme",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.0"
+  }
+}
