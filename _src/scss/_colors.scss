@@ -1,0 +1,249 @@
+$INK-100: #c0c5d9;
+$INK-200: #a7acbf;
+$INK-300: #8e93a5;
+$INK-400: #767a8c;
+$INK-500: #5e6374;
+$INK-600: #484c5d;
+$INK-700: #333746;
+$INK-800: #0e1019;
+$INK-900: #0e1019;
+
+$PARCHMENT-100: #fffaf4;
+$PARCHMENT-200: #dfdfdf;
+$PARCHMENT-300: #c4c4c4;
+$PARCHMENT-400: #a9a9a9;
+$PARCHMENT-500: #909090;
+$PARCHMENT-600: #666;
+$PARCHMENT-700: #5f5f5f;
+$PARCHMENT-800: #484848;
+$PARCHMENT-900: #323232;
+
+$SUMAC-100: #ffccc2;
+$SUMAC-200: #ff9e90;
+$SUMAC-300: #ff6657;
+$SUMAC-400: #ff000f;
+$SUMAC-500: #dc0000;
+$SUMAC-600: #b40000;
+$SUMAC-700: #8d0000;
+$SUMAC-800: #670000;
+$SUMAC-900: #400;
+
+$TUMERIC-100: #ffcdaa;
+$TUMERIC-200: #ffa05f;
+$TUMERIC-300: #f87810;
+$TUMERIC-400: #de5c00;
+$TUMERIC-500: #bb4a00;
+$TUMERIC-600: #983900;
+$TUMERIC-700: #772900;
+$TUMERIC-800: #571900;
+$TUMERIC-900: #3a0a00;
+
+$MARIGOLD-100: #fff9d6;
+$MARIGOLD-200: #ffd879;
+$MARIGOLD-300: #ffb900;
+$MARIGOLD-400: #e39d00;
+$MARIGOLD-500: #c28500;
+$MARIGOLD-600: #a16e00;
+$MARIGOLD-700: #825700;
+$MARIGOLD-800: #654100;
+$MARIGOLD-900: #482c00;
+
+$FOXGLOVE-100: #ebffd5;
+$FOXGLOVE-200: #a6fd43;
+$FOXGLOVE-300: #8ce10b;
+$FOXGLOVE-400: #72c500;
+$FOXGLOVE-500: #5ea800;
+$FOXGLOVE-600: #4c8b00;
+$FOXGLOVE-700: #3b7000;
+$FOXGLOVE-800: #2a5600;
+$FOXGLOVE-900: #1b3d00;
+
+$SORREL-100: #6bff9d;
+$SORREL-200: #00f569;
+$SORREL-300: #00d85a;
+$SORREL-400: #0eb75b;
+$SORREL-500: #009c3b;
+$SORREL-600: #007d2c;
+$SORREL-700: #00601d;
+$SORREL-800: #00440e;
+$SORREL-900: #002a03;
+
+$CORNFLOWER-100: #2ff8ff;
+$CORNFLOWER-200: #00d8eb;
+$CORNFLOWER-300: #00bed2;
+$CORNFLOWER-400: #00a2b3;
+$CORNFLOWER-500: #008695;
+$CORNFLOWER-600: #006c79;
+$CORNFLOWER-700: #00535d;
+$CORNFLOWER-800: #003b43;
+$CORNFLOWER-900: #00242b;
+
+$BLUEBERRY-100: #bfe4ff;
+$BLUEBERRY-200: #8ccaff;
+$BLUEBERRY-300: #51aeff;
+$BLUEBERRY-400: #0092ff;
+$BLUEBERRY-500: #0076e9;
+$BLUEBERRY-600: #005ebf;
+$BLUEBERRY-700: #004697;
+$BLUEBERRY-800: #003071;
+$BLUEBERRY-900: #001b4e;
+
+$RASPBERRY-100: #ffc9ff;
+$RASPBERRY-200: #fd9aff;
+$RASPBERRY-300: #e67bf7;
+$RASPBERRY-400: #e11ffc;
+$RASPBERRY-500: #c200dc;
+$RASPBERRY-600: #9d00b3;
+$RASPBERRY-700: #79008b;
+$RASPBERRY-800: #580065;
+$RASPBERRY-900: #380042;
+
+$LAVENDER-100: #e5d1ff;
+$LAVENDER-200: #cda9ff;
+$LAVENDER-300: #b77cff;
+$LAVENDER-400: #9a5feb;
+$LAVENDER-500: #9000ff;
+$LAVENDER-600: #7500d3;
+$LAVENDER-700: #5b00a6;
+$LAVENDER-800: #41007c;
+$LAVENDER-900: #2a0053;
+
+:root {
+    --color-ink-100: #{$INK-100};
+    --color-ink-200: #{$INK-200};
+    --color-ink-300: #{$INK-300};
+    --color-ink-400: #{$INK-400};
+    --color-ink-500: #{$INK-500};
+    --color-ink-600: #{$INK-600};
+    --color-ink-700: #{$INK-700};
+    --color-ink-800: #{$INK-800};
+    --color-ink-900: #{$INK-900};
+
+    --color-parchment-100: #{$PARCHMENT-100};
+    --color-parchment-200: #{$PARCHMENT-200};
+    --color-parchment-300: #{$PARCHMENT-300};
+    --color-parchment-400: #{$PARCHMENT-400};
+    --color-parchment-500: #{$PARCHMENT-500};
+    --color-parchment-600: #{$PARCHMENT-600};
+    --color-parchment-700: #{$PARCHMENT-700};
+    --color-parchment-800: #{$PARCHMENT-800};
+    --color-parchment-900: #{$PARCHMENT-900};
+
+    --color-sumac-100: #{$SUMAC-100};
+    --color-sumac-200: #{$SUMAC-200};
+    --color-sumac-300: #{$SUMAC-300};
+    --color-sumac-400: #{$SUMAC-400};
+    --color-sumac-500: #{$SUMAC-500};
+    --color-sumac-600: #{$SUMAC-600};
+    --color-sumac-700: #{$SUMAC-700};
+    --color-sumac-800: #{$SUMAC-800};
+    --color-sumac-900: #{$SUMAC-900};
+
+    --color-tumeric-100: #{$TUMERIC-100};
+    --color-tumeric-200: #{$TUMERIC-200};
+    --color-tumeric-300: #{$TUMERIC-300};
+    --color-tumeric-400: #{$TUMERIC-400};
+    --color-tumeric-500: #{$TUMERIC-500};
+    --color-tumeric-600: #{$TUMERIC-600};
+    --color-tumeric-700: #{$TUMERIC-700};
+    --color-tumeric-800: #{$TUMERIC-800};
+    --color-tumeric-900: #{$TUMERIC-900};
+
+    --color-marigold-100: #{$MARIGOLD-100};
+    --color-marigold-200: #{$MARIGOLD-200};
+    --color-marigold-300: #{$MARIGOLD-300};
+    --color-marigold-400: #{$MARIGOLD-400};
+    --color-marigold-500: #{$MARIGOLD-500};
+    --color-marigold-600: #{$MARIGOLD-600};
+    --color-marigold-700: #{$MARIGOLD-700};
+    --color-marigold-800: #{$MARIGOLD-800};
+    --color-marigold-900: #{$MARIGOLD-900};
+
+    --color-foxglove-100: #{$FOXGLOVE-100};
+    --color-foxglove-200: #{$FOXGLOVE-200};
+    --color-foxglove-300: #{$FOXGLOVE-300};
+    --color-foxglove-400: #{$FOXGLOVE-400};
+    --color-foxglove-500: #{$FOXGLOVE-500};
+    --color-foxglove-600: #{$FOXGLOVE-600};
+    --color-foxglove-700: #{$FOXGLOVE-700};
+    --color-foxglove-800: #{$FOXGLOVE-800};
+    --color-foxglove-900: #{$FOXGLOVE-900};
+
+    --color-sorrel-100: #{$SORREL-100};
+    --color-sorrel-200: #{$SORREL-200};
+    --color-sorrel-300: #{$SORREL-300};
+    --color-sorrel-400: #{$SORREL-400};
+    --color-sorrel-500: #{$SORREL-500};
+    --color-sorrel-600: #{$SORREL-600};
+    --color-sorrel-700: #{$SORREL-700};
+    --color-sorrel-800: #{$SORREL-800};
+    --color-sorrel-900: #{$SORREL-900};
+
+    --color-cornflower-100: #{$CORNFLOWER-100};
+    --color-cornflower-200: #{$CORNFLOWER-200};
+    --color-cornflower-300: #{$CORNFLOWER-300};
+    --color-cornflower-400: #{$CORNFLOWER-400};
+    --color-cornflower-500: #{$CORNFLOWER-500};
+    --color-cornflower-600: #{$CORNFLOWER-600};
+    --color-cornflower-700: #{$CORNFLOWER-700};
+    --color-cornflower-800: #{$CORNFLOWER-800};
+    --color-cornflower-900: #{$CORNFLOWER-900};
+
+    --color-blueberry-100: #{$BLUEBERRY-100};
+    --color-blueberry-200: #{$BLUEBERRY-200};
+    --color-blueberry-300: #{$BLUEBERRY-300};
+    --color-blueberry-400: #{$BLUEBERRY-400};
+    --color-blueberry-500: #{$BLUEBERRY-500};
+    --color-blueberry-600: #{$BLUEBERRY-600};
+    --color-blueberry-700: #{$BLUEBERRY-700};
+    --color-blueberry-800: #{$BLUEBERRY-800};
+    --color-blueberry-900: #{$BLUEBERRY-900};
+
+    --color-raspberry-100: #{$RASPBERRY-100};
+    --color-raspberry-200: #{$RASPBERRY-200};
+    --color-raspberry-300: #{$RASPBERRY-300};
+    --color-raspberry-400: #{$RASPBERRY-400};
+    --color-raspberry-500: #{$RASPBERRY-500};
+    --color-raspberry-600: #{$RASPBERRY-600};
+    --color-raspberry-700: #{$RASPBERRY-700};
+    --color-raspberry-800: #{$RASPBERRY-800};
+    --color-raspberry-900: #{$RASPBERRY-900};
+
+    --color-lavender-100: #{$LAVENDER-100};
+    --color-lavender-200: #{$LAVENDER-200};
+    --color-lavender-300: #{$LAVENDER-300};
+    --color-lavender-400: #{$LAVENDER-400};
+    --color-lavender-500: #{$LAVENDER-500};
+    --color-lavender-600: #{$LAVENDER-600};
+    --color-lavender-700: #{$LAVENDER-700};
+    --color-lavender-800: #{$LAVENDER-800};
+    --color-lavender-900: #{$LAVENDER-900};
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --fg-color: var(--color-ink-900);
+        --bg-l1-color: var(--color-parchment-100);
+        --bg-l2-color: var(--color-parchment-200);
+        --bg-l3-color: var(--color-parchment-300);
+        --border-color: color-mix(in srgb, #{$INK-900}, transparent 93%);
+
+        --highlight-color-top: rgba(255, 255, 255, 1);
+        --highlight-color-side: rgba(255, 255, 255, 0.3);
+        --highlight-color-bottom: rgba(255, 255, 255, 0.5);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --fg-color: var(--color-parchment-100);
+        --bg-l1-color: var(--color-ink-600);
+        --bg-l2-color: var(--color-ink-700);
+        --bg-l3-color: var(--color-ink-800);
+        --border-color: color-mix(in srgb, #{$INK-900}, transparent 70%);
+
+        --highlight-color-top: rgba(255, 255, 255, 0.25);
+        --highlight-color-side: rgba(255, 255, 255, 0.07);
+        --highlight-color-bottom: rgba(255, 255, 255, 0.12);
+    }
+}

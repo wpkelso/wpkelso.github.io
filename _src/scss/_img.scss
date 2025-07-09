@@ -1,0 +1,11 @@
+& img {
+    position: relative;
+    z-index: -1;
+    top: -2px;
+    left: -2px;
+    border-radius: 6px;
+
+    height: calc(100% + 3.5px);
+    width: calc(100% + 3.5px);
+
+}

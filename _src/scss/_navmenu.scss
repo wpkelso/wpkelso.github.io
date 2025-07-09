@@ -1,0 +1,15 @@
+.navbar {
+    margin: auto;
+
+    & ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    & a {
+        &:after {
+            content: "🡲";
+            margin-left: 2px;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+@use "components.scss";
+
+.card {
+    @include components.extrude;
+
+    background-clip: border-box;
+
+    border-width: 2px;
+    border-radius: 6px;
+    border-top-color: color-mix(in srgb, white, transparent 50%);
+    border-right-color: color-mix(in srgb, white, transparent 82%);
+    border-left-color: color-mix(in srgb, white, transparent 82%);
+    border-bottom-color: color-mix(in srgb, white, transparent 75%);
+
+    & img {
+    position: relative;
+    z-index: -1;
+    top: -2px;
+    left: -2px;
+    border-radius: 6px;
+
+    height: calc(100% + 3.5px);
+    width: calc(100% + 3.5px);
+
+}
+}
