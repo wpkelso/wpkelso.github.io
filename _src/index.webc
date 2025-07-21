@@ -50,7 +50,8 @@
 
             <h3>Music</h3>
             <p>
-                Albums and artists I&rsquo;ve been enjoying.
+                Albums and artists I&rsquo;ve been enjoying, in no particular
+                order.
             </p>
             <ul>
 
@@ -63,7 +64,30 @@
                 <li>
                     <em>Firebird (Deluxe Edition)</em>, Dirt Poor Robins
                 </li>
-
+                <li>
+                    <em>Moko Jumbie</em>, A Plane to Catch
+                </li>
+                <li>
+                    <em>Soul Piece</em>, A Plane to Catch
+                </li>
+                <li>
+                    <em>Godhunter</em>, Aviators
+                </li>
+                <li>
+                    <em>Ruin</em>, The Amazing Devil
+                </li>
+                <li>
+                    <em>Love Run</em>, The Amazing Devil
+                </li>
+                <li>
+                    <em>Seelie</em>, Clann
+                </li>
+                <li>
+                    <em>Impulse Voices</em>, Plini
+                </li>
+                <li>
+                    <em>Handmade Cities</em>, Plini
+                </li>
             </ul>
         </section>
     </body>

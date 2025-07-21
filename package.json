@@ -7,7 +7,7 @@
     "watch:sass": "sass --watch _src/scss:_site/css",
     "build:sass": "sass _src/scss:_site/css",
     "watch:eleventy": "eleventy --serve",
-    "build:eleventy": "eleventy",
+    "build:eleventy": "eleventy --pathprefix=/wpkelso.github.io/",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:*"
   },
