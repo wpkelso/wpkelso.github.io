@@ -1,0 +1,13 @@
+.two-column {
+  display: grid;
+  grid: auto/1fr 1fr;
+  margin: auto;
+  width: 75vw;
+  min-width: 200px;
+}
+.two-column section.lcol {
+  position: sticky;
+  top: 16px;
+}
+
+/*# sourceMappingURL=two-col.css.map */

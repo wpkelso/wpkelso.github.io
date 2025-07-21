@@ -1,0 +1,261 @@
+@charset "UTF-8";
+:root {
+  --color-ink-100: #c0c5d9;
+  --color-ink-200: #a7acbf;
+  --color-ink-300: #8e93a5;
+  --color-ink-400: #767a8c;
+  --color-ink-500: #5e6374;
+  --color-ink-600: #484c5d;
+  --color-ink-700: #333746;
+  --color-ink-800: #0e1019;
+  --color-ink-900: #0e1019;
+  --color-parchment-100: #fffaf4;
+  --color-parchment-200: #dfdfdf;
+  --color-parchment-300: #c4c4c4;
+  --color-parchment-400: #a9a9a9;
+  --color-parchment-500: #909090;
+  --color-parchment-600: #666;
+  --color-parchment-700: #5f5f5f;
+  --color-parchment-800: #484848;
+  --color-parchment-900: #323232;
+  --color-sumac-100: #ffccc2;
+  --color-sumac-200: #ff9e90;
+  --color-sumac-300: #ff6657;
+  --color-sumac-400: #ff000f;
+  --color-sumac-500: #dc0000;
+  --color-sumac-600: #b40000;
+  --color-sumac-700: #8d0000;
+  --color-sumac-800: #670000;
+  --color-sumac-900: #400;
+  --color-tumeric-100: #ffcdaa;
+  --color-tumeric-200: #ffa05f;
+  --color-tumeric-300: #f87810;
+  --color-tumeric-400: #de5c00;
+  --color-tumeric-500: #bb4a00;
+  --color-tumeric-600: #983900;
+  --color-tumeric-700: #772900;
+  --color-tumeric-800: #571900;
+  --color-tumeric-900: #3a0a00;
+  --color-marigold-100: #fff9d6;
+  --color-marigold-200: #ffd879;
+  --color-marigold-300: #ffb900;
+  --color-marigold-400: #e39d00;
+  --color-marigold-500: #c28500;
+  --color-marigold-600: #a16e00;
+  --color-marigold-700: #825700;
+  --color-marigold-800: #654100;
+  --color-marigold-900: #482c00;
+  --color-foxglove-100: #ebffd5;
+  --color-foxglove-200: #a6fd43;
+  --color-foxglove-300: #8ce10b;
+  --color-foxglove-400: #72c500;
+  --color-foxglove-500: #5ea800;
+  --color-foxglove-600: #4c8b00;
+  --color-foxglove-700: #3b7000;
+  --color-foxglove-800: #2a5600;
+  --color-foxglove-900: #1b3d00;
+  --color-sorrel-100: #6bff9d;
+  --color-sorrel-200: #00f569;
+  --color-sorrel-300: #00d85a;
+  --color-sorrel-400: #0eb75b;
+  --color-sorrel-500: #009c3b;
+  --color-sorrel-600: #007d2c;
+  --color-sorrel-700: #00601d;
+  --color-sorrel-800: #00440e;
+  --color-sorrel-900: #002a03;
+  --color-cornflower-100: #2ff8ff;
+  --color-cornflower-200: #00d8eb;
+  --color-cornflower-300: #00bed2;
+  --color-cornflower-400: #00a2b3;
+  --color-cornflower-500: #008695;
+  --color-cornflower-600: #006c79;
+  --color-cornflower-700: #00535d;
+  --color-cornflower-800: #003b43;
+  --color-cornflower-900: #00242b;
+  --color-blueberry-100: #bfe4ff;
+  --color-blueberry-200: #8ccaff;
+  --color-blueberry-300: #51aeff;
+  --color-blueberry-400: #0092ff;
+  --color-blueberry-500: #0076e9;
+  --color-blueberry-600: #005ebf;
+  --color-blueberry-700: #004697;
+  --color-blueberry-800: #003071;
+  --color-blueberry-900: #001b4e;
+  --color-raspberry-100: #ffc9ff;
+  --color-raspberry-200: #fd9aff;
+  --color-raspberry-300: #e67bf7;
+  --color-raspberry-400: #e11ffc;
+  --color-raspberry-500: #c200dc;
+  --color-raspberry-600: #9d00b3;
+  --color-raspberry-700: #79008b;
+  --color-raspberry-800: #580065;
+  --color-raspberry-900: #380042;
+  --color-lavender-100: #e5d1ff;
+  --color-lavender-200: #cda9ff;
+  --color-lavender-300: #b77cff;
+  --color-lavender-400: #9a5feb;
+  --color-lavender-500: #9000ff;
+  --color-lavender-600: #7500d3;
+  --color-lavender-700: #5b00a6;
+  --color-lavender-800: #41007c;
+  --color-lavender-900: #2a0053;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --fg-color: var(--color-ink-900);
+    --bg-l1-color: var(--color-parchment-100);
+    --bg-l2-color: var(--color-parchment-200);
+    --bg-l3-color: var(--color-parchment-300);
+    --border-color: color-mix(in srgb, #0e1019, transparent 93%);
+    --highlight-color-top: rgba(255, 255, 255, 1);
+    --highlight-color-side: rgba(255, 255, 255, 0.3);
+    --highlight-color-bottom: rgba(255, 255, 255, 0.5);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fg-color: var(--color-parchment-100);
+    --bg-l1-color: var(--color-ink-600);
+    --bg-l2-color: var(--color-ink-700);
+    --bg-l3-color: var(--color-ink-800);
+    --border-color: color-mix(in srgb, #0e1019, transparent 70%);
+    --highlight-color-top: rgba(255, 255, 255, 0.25);
+    --highlight-color-side: rgba(255, 255, 255, 0.07);
+    --highlight-color-bottom: rgba(255, 255, 255, 0.12);
+  }
+}
+@font-face {
+  font-family: "Rosario";
+  src: url("/fonts/Rosario/eot/Rosario-Light.eot");
+  src: url("/fonts/Rosario/eot/Rosario-Light.eot?#iefix") format("embedded-opentype"), url("/fonts/Rosario/woff2/Rosario-Light.woff2") format("woff2"), url("/fonts/Rosario/woff/Rosario-Light.woff") format("woff"), url("/fonts/Rosario/ttf/Rosario-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Rosario";
+  src: url("/fonts/Rosario/eot/Rosario-LightItalic.eot");
+  src: url("/fonts/Rosario/eot/Rosario-LightItalic.eot?#iefix") format("embedded-opentype"), url("/fonts/Rosario/woff2/Rosario-LightItalic.woff2") format("woff2"), url("/fonts/Rosario/woff/Rosario-LightItalic.woff") format("woff"), url("/fonts/Rosario/ttf/Rosario-LightItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Rosario";
+  src: url("/fonts/Rosario/eot/Rosario-Regular.eot");
+  src: url("/fonts/Rosario/eot/Rosario-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/Rosario/woff2/Rosario-Regular.woff2") format("woff2"), url("/fonts/Rosario/woff/Rosario-Regular.woff") format("woff"), url("/fonts/Rosario/ttf/Rosario-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Rosario";
+  src: url("/fonts/Rosario/eot/Rosario-Italic.eot");
+  src: url("/fonts/Rosario/eot/Rosario-Italic.eot?#iefix") format("embedded-opentype"), url("/fonts/Rosario/woff2/Rosario-Italic.woff2") format("woff2"), url("/fonts/Rosario/woff/Rosario-Italic.woff") format("woff"), url("/fonts/Rosario/ttf/Rosario-Italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Rosario";
+  src: url("/fonts/Rosario/eot/Rosario-SemiBold.eot");
+  src: url("/fonts/Rosario/eot/Rosario-SemiBold.eot?#iefix") format("embedded-opentype"), url("/fonts/Rosario/woff2/Rosario-SemiBold.woff2") format("woff2"), url("/fonts/Rosario/woff/Rosario-SemiBold.woff") format("woff"), url("/fonts/Rosario/ttf/Rosario-SemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Rosario";
+  src: url("/fonts/Rosario/eot/Rosario-SemiBoldItalic.eot");
+  src: url("/fonts/Rosario/eot/Rosario-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("/fonts/Rosario/woff2/Rosario-SemiBoldItalic.woff2") format("woff2"), url("/fonts/Rosario/woff/Rosario-SemiBoldItalic.woff") format("woff"), url("/fonts/Rosario/ttf/Rosario-SemiBoldItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Rosario";
+  src: url("/fonts/Rosario/eot/Rosario-Bold.eot");
+  src: url("/fonts/Rosario/eot/Rosario-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Rosario/woff2/Rosario-Bold.woff2") format("woff2"), url("/fonts/Rosario/woff/Rosario-Bold.woff") format("woff"), url("/fonts/Rosario/ttf/Rosario-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Rosario";
+  src: url("/fonts/Rosario/eot/Rosario-BoldItalic.eot");
+  src: url("/fonts/Rosario/eot/Rosario-BoldItalic.eot?#iefix") format("embedded-opentype"), url("/fonts/Rosario/woff2/Rosario-BoldItalic.woff2") format("woff2"), url("/fonts/Rosario/woff/Rosario-BoldItalic.woff") format("woff"), url("/fonts/Rosario/ttf/Rosario-BoldItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 700;
+}
+abbr {
+  font-variant: small-caps;
+}
+
+.navbar {
+  margin: auto;
+}
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+.navbar a:after {
+  content: "🡲";
+  margin-left: 2px;
+}
+
+button {
+  display: inline-block;
+  background-color: var(--bg-l1-color);
+  color: var(--fg-color);
+  background-clip: border-box;
+  border-top: 1px solid color-mix(in srgb, var(--highlight-color-top), transparent 50%);
+  border-left: 1px solid color-mix(in srgb, var(--highlight-color-side), transparent 50%);
+  border-right: 1px solid color-mix(in srgb, var(--highlight-color-side), transparent 50%);
+  border-bottom: 1px solid color-mix(in srgb, var(--highlight-color-bottom), transparent 50%);
+  border-radius: 1px;
+  outline: 1px solid var(--border-color);
+  box-shadow: 0px 1px 1px color-mix(in srgb, black, transparent 85%), 0px 1px 1px 1px color-mix(in srgb, black, transparent 85%);
+  padding: 3px 6px;
+  margin: 6px 0px;
+  min-width: 8rem;
+  text-decoration: none;
+  text-align: center;
+  transition: 50ms;
+}
+button:active {
+  background-color: var(--bg-l3-color);
+  border-top: none;
+  border-bottom: 1px solid var(--highlight-color-top);
+  box-shadow: none;
+  box-shadow: inset 0px 1px 1px color-mix(in srgb, black, transparent 85%), inset 0px 1px 1px 1px color-mix(in srgb, black, transparent 85%);
+}
+
+.card {
+  background-clip: border-box;
+  border-top: 1px solid color-mix(in srgb, var(--highlight-color-top), transparent 50%);
+  border-left: 1px solid color-mix(in srgb, var(--highlight-color-side), transparent 50%);
+  border-right: 1px solid color-mix(in srgb, var(--highlight-color-side), transparent 50%);
+  border-bottom: 1px solid color-mix(in srgb, var(--highlight-color-bottom), transparent 50%);
+  border-radius: 1px;
+  outline: 1px solid var(--border-color);
+  box-shadow: 0px 1px 1px color-mix(in srgb, black, transparent 85%), 0px 1px 1px 1px color-mix(in srgb, black, transparent 85%);
+  background-clip: border-box;
+  border-width: 2px;
+  border-radius: 6px;
+  border-top-color: color-mix(in srgb, white, transparent 50%);
+  border-right-color: color-mix(in srgb, white, transparent 82%);
+  border-left-color: color-mix(in srgb, white, transparent 82%);
+  border-bottom-color: color-mix(in srgb, white, transparent 75%);
+}
+.card img {
+  position: relative;
+  z-index: -1;
+  top: -2px;
+  left: -2px;
+  border-radius: 6px;
+  height: calc(100% + 3.5px);
+  width: calc(100% + 3.5px);
+}
+
+body {
+  padding: 16px 0;
+  color: var(--fg-color);
+  background-color: var(--bg-l1-color);
+  font-family: "Rosario";
+}
+
+/*# sourceMappingURL=index.css.map */
