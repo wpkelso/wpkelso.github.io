@@ -1,5 +1,26 @@
 a {
+    text-decoration: solid underline color-mix(in srgb, currentcolor, transparent 50%) 2pt;
+    text-decoration-skip-ink: none;
+    text-decoration-skip: none;
+
+    &:link {
+        color: var(--link-unvisited-color);
+    }
+
+    &:visited {
+        color: var(--link-visited-color);
+    }
+
+    &:hover {
+        text-decoration-thickness: 3pt;
+    }
+
+    &:active {
+        color: var(--link-active-color);
+    }
+
     &:after {
         content: "🡵";
+        margin-left: 0.1em;
     }
 }

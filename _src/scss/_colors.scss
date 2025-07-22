@@ -231,6 +231,10 @@ $LAVENDER-900: #2a0053;
         --highlight-color-top: rgba(255, 255, 255, 1);
         --highlight-color-side: rgba(255, 255, 255, 0.3);
         --highlight-color-bottom: rgba(255, 255, 255, 0.5);
+
+        --link-unvisited-color: var(--color-blueberry-700);
+        --link-visited-color: var(--color-lavender-700);
+        --link-active-color: var(--color-sumac-700);
     }
 }
 
@@ -245,5 +249,10 @@ $LAVENDER-900: #2a0053;
         --highlight-color-top: rgba(255, 255, 255, 0.25);
         --highlight-color-side: rgba(255, 255, 255, 0.07);
         --highlight-color-bottom: rgba(255, 255, 255, 0.12);
+
+        --link-unvisited-color: var(--color-blueberry-300);
+        --link-visited-color: var(--color-lavender-300);
+        --link-active-color: var(--color-sumac-300);
+
     }
 }

@@ -79,6 +79,29 @@
 	font-weight: 700;
 }
 
+@font-face {
+    font-family: 'Jost';
+    src: url('/fonts/Jost/OpenType/Jost-400-Book.otf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
+    font-family: "Rosario", serif;
+}
+
+h1, h2, h3 {
+    font-family: "Jost", "Rosario", serif;
+}
+
+h1, h2 {
+    letter-spacing: 1pt;
+}
+
+h3 {
+    letter-spacing: 0.65pt;
+}
+
 abbr {
     font-variant: small-caps;
 }

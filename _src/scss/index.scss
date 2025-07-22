@@ -1,14 +1,15 @@
 @use "colors.scss";
 @use "typography.scss";
 
-@use "navmenu.scss";
+@use "link.scss";
+@use "abbr.scss";
 @use "button.scss";
+
 @use "card.scss";
+@use "navmenu.scss";
 
 body {
-    padding: 16px 0;
+    padding: 16pt 0;
     color: var(--fg-color);
     background-color: var(--bg-l1-color);
-
-    font-family: 'Rosario';
 }

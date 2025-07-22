@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Homepage</title>
 
+        <link webc:keep rel="stylesheet” href="https://indestructibletype.com/fonts/Jost.css” type="text/css” charset="utf-8” />
         <link webc:keep rel="stylesheet" href="/css/index.css">
     </head>
     <body>
