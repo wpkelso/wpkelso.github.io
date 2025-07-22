@@ -111,6 +111,9 @@
     --highlight-color-top: rgba(255, 255, 255, 1);
     --highlight-color-side: rgba(255, 255, 255, 0.3);
     --highlight-color-bottom: rgba(255, 255, 255, 0.5);
+    --link-unvisited-color: var(--color-blueberry-700);
+    --link-visited-color: var(--color-lavender-700);
+    --link-active-color: var(--color-sumac-700);
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -123,6 +126,9 @@
     --highlight-color-top: rgba(255, 255, 255, 0.25);
     --highlight-color-side: rgba(255, 255, 255, 0.07);
     --highlight-color-bottom: rgba(255, 255, 255, 0.12);
+    --link-unvisited-color: var(--color-blueberry-300);
+    --link-visited-color: var(--color-lavender-300);
+    --link-active-color: var(--color-sumac-300);
   }
 }
 @font-face {
@@ -181,20 +187,57 @@
   font-style: italic;
   font-weight: 700;
 }
+@font-face {
+  font-family: "Jost";
+  src: url("/fonts/Jost/OpenType/Jost-400-Book.otf");
+  font-style: normal;
+  font-weight: 400;
+}
+body {
+  font-family: "Rosario", serif;
+}
+
+h1, h2, h3 {
+  font-family: "Jost", "Rosario", serif;
+}
+
+h1, h2 {
+  letter-spacing: 1pt;
+}
+
+h3 {
+  letter-spacing: 0.65pt;
+}
+
 abbr {
   font-variant: small-caps;
 }
 
-.navbar {
-  margin: auto;
+a {
+  text-decoration: solid underline color-mix(in srgb, currentcolor, transparent 50%) 2pt;
+  text-decoration-skip-ink: none;
+  text-decoration-skip: none;
 }
-.navbar ul {
-  list-style-type: none;
-  padding: 0;
+a:link {
+  color: var(--link-unvisited-color);
 }
-.navbar a:after {
-  content: "🡲";
-  margin-left: 2px;
+a:visited {
+  color: var(--link-visited-color);
+}
+a:hover {
+  text-decoration-thickness: 3pt;
+}
+a:active {
+  color: var(--link-active-color);
+}
+a:after {
+  content: "🡵";
+  margin-left: 0.1em;
+}
+
+abbr {
+  text-decoration: none;
+  border-bottom: none;
 }
 
 button {
@@ -251,11 +294,22 @@ button:active {
   width: calc(100% + 3.5px);
 }
 
+.navbar {
+  margin: auto;
+}
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+.navbar a:after {
+  content: "🡲";
+  margin-left: 0.1em;
+}
+
 body {
-  padding: 16px 0;
+  padding: 16pt 0;
   color: var(--fg-color);
   background-color: var(--bg-l1-color);
-  font-family: "Rosario";
 }
 
 /*# sourceMappingURL=index.css.map */
