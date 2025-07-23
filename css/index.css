@@ -119,10 +119,10 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --fg-color: var(--color-parchment-100);
-    --bg-l1-color: var(--color-ink-600);
-    --bg-l2-color: var(--color-ink-700);
-    --bg-l3-color: var(--color-ink-800);
-    --border-color: color-mix(in srgb, #0e1019, transparent 70%);
+    --bg-l1-color: var(--color-ink-700);
+    --bg-l2-color: var(--color-ink-800);
+    --bg-l3-color: var(--color-ink-900);
+    --border-color: color-mix(in srgb, black, transparent 70%);
     --highlight-color-top: rgba(255, 255, 255, 0.25);
     --highlight-color-side: rgba(255, 255, 255, 0.07);
     --highlight-color-bottom: rgba(255, 255, 255, 0.12);
