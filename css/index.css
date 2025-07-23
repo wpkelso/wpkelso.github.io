@@ -107,7 +107,7 @@
     --bg-l1-color: var(--color-parchment-100);
     --bg-l2-color: var(--color-parchment-200);
     --bg-l3-color: var(--color-parchment-300);
-    --border-color: color-mix(in srgb, #0e1019, transparent 93%);
+    --border-color: color-mix(in oklch, black, transparent 93%);
     --highlight-color-top: rgba(255, 255, 255, 1);
     --highlight-color-side: rgba(255, 255, 255, 0.3);
     --highlight-color-bottom: rgba(255, 255, 255, 0.5);
@@ -122,7 +122,7 @@
     --bg-l1-color: var(--color-ink-700);
     --bg-l2-color: var(--color-ink-800);
     --bg-l3-color: var(--color-ink-900);
-    --border-color: color-mix(in srgb, black, transparent 70%);
+    --border-color: color-mix(in oklch, black, transparent 70%);
     --highlight-color-top: rgba(255, 255, 255, 0.25);
     --highlight-color-side: rgba(255, 255, 255, 0.07);
     --highlight-color-bottom: rgba(255, 255, 255, 0.12);
@@ -214,9 +214,15 @@ abbr {
 }
 
 a {
-  text-decoration: solid underline color-mix(in srgb, currentcolor, transparent 50%) 2pt;
+  --underline-color: color-mix(in srgb, currentcolor, transparent 50%);
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: var(--underline-color);
+  -webkit-text-decoration-color: var(--underline-color);
+  text-decoration-thickness: 2pt;
   text-decoration-skip-ink: none;
   text-decoration-skip: none;
+  transition: all 50ms;
 }
 a:link {
   color: var(--link-unvisited-color);
@@ -267,6 +273,10 @@ button:active {
   box-shadow: inset 0px 1px 1px color-mix(in srgb, black, transparent 85%), inset 0px 1px 1px 1px color-mix(in srgb, black, transparent 85%);
 }
 
+ul, ol {
+  padding-left: 0;
+}
+
 .card {
   background-clip: border-box;
   border-top: 1px solid color-mix(in srgb, var(--highlight-color-top), transparent 50%);
@@ -276,7 +286,6 @@ button:active {
   outline: 1px solid var(--border-color);
   box-shadow: 0px 1px 1px color-mix(in srgb, black, transparent 85%), 0px 1px 1px 1px color-mix(in srgb, black, transparent 85%);
   background-clip: border-box;
-  border-radius: 3pt;
   padding: 5pt 10pt;
   margin: 10pt 10pt;
   max-width: 75vw;
@@ -302,6 +311,7 @@ body {
   background-color: var(--bg-l1-color);
   max-width: 600pt;
   margin: auto;
+  padding: 0 20pt;
 }
 
 /*# sourceMappingURL=index.css.map */
