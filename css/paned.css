@@ -1,0 +1,15 @@
+.horizontal-paned {
+  display: grid;
+  grid: auto/1fr 1fr;
+  min-width: 200pt;
+}
+.horizontal-paned.start-child {
+  position: sticky;
+  top: 16pt;
+  grid-column: 1/2;
+}
+.horizontal-paned.end-child {
+  grid-column: 2/3;
+}
+
+/*# sourceMappingURL=paned.css.map */

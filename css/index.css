@@ -231,8 +231,9 @@ a:active {
   color: var(--link-active-color);
 }
 a:after {
-  content: "🡵";
+  content: "➚";
   margin-left: 0.1em;
+  text-decoration: none;
 }
 
 abbr {
@@ -249,7 +250,6 @@ button {
   border-left: 1px solid color-mix(in srgb, var(--highlight-color-side), transparent 50%);
   border-right: 1px solid color-mix(in srgb, var(--highlight-color-side), transparent 50%);
   border-bottom: 1px solid color-mix(in srgb, var(--highlight-color-bottom), transparent 50%);
-  border-radius: 1px;
   outline: 1px solid var(--border-color);
   box-shadow: 0px 1px 1px color-mix(in srgb, black, transparent 85%), 0px 1px 1px 1px color-mix(in srgb, black, transparent 85%);
   padding: 3px 6px;
@@ -273,25 +273,17 @@ button:active {
   border-left: 1px solid color-mix(in srgb, var(--highlight-color-side), transparent 50%);
   border-right: 1px solid color-mix(in srgb, var(--highlight-color-side), transparent 50%);
   border-bottom: 1px solid color-mix(in srgb, var(--highlight-color-bottom), transparent 50%);
-  border-radius: 1px;
   outline: 1px solid var(--border-color);
   box-shadow: 0px 1px 1px color-mix(in srgb, black, transparent 85%), 0px 1px 1px 1px color-mix(in srgb, black, transparent 85%);
   background-clip: border-box;
-  border-width: 2px;
-  border-radius: 6px;
-  border-top-color: color-mix(in srgb, white, transparent 50%);
-  border-right-color: color-mix(in srgb, white, transparent 82%);
-  border-left-color: color-mix(in srgb, white, transparent 82%);
-  border-bottom-color: color-mix(in srgb, white, transparent 75%);
+  border-radius: 3pt;
+  padding: 5pt 10pt;
+  margin: 10pt 10pt;
+  max-width: 75vw;
+  min-height: fit-content;
 }
-.card img {
-  position: relative;
-  z-index: -1;
-  top: -2px;
-  left: -2px;
-  border-radius: 6px;
-  height: calc(100% + 3.5px);
-  width: calc(100% + 3.5px);
+.card h1, .card h2, .card h3, .card h4, .card h5, .card h6 {
+  margin-top: 0pt;
 }
 
 .navbar {
@@ -302,14 +294,14 @@ button:active {
   padding: 0;
 }
 .navbar a:after {
-  content: "🡲";
-  margin-left: 0.1em;
+  content: "";
 }
 
 body {
-  padding: 16pt 0;
   color: var(--fg-color);
   background-color: var(--bg-l1-color);
+  max-width: 600pt;
+  margin: auto;
 }
 
 /*# sourceMappingURL=index.css.map */
