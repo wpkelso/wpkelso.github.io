@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "build-ghpages": "npx @11ty/eleventy --pathprefix=/wpkelso.github.io/",
-    "watch:sass": "sass --sourcemap=none --watch _src/scss:_site/css",
-    "build:sass": "sass --sourcemap=none _src/scss:_site/css",
+    "watch:sass": "sass --no-source-map --watch _src/scss:_site/css",
+    "build:sass": "sass --source-map _src/scss:_site/css",
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy --pathprefix=/wpkelso.github.io/",
     "start": "npm-run-all build:sass --parallel watch:*",
