@@ -9,7 +9,9 @@
 @use "navmenu.scss";
 
 body {
-    padding: 16pt 0;
     color: var(--fg-color);
     background-color: var(--bg-l1-color);
+
+    max-width: 600pt;
+    margin: auto;
 }

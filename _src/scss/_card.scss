@@ -4,23 +4,16 @@
     @include components.extrude;
 
     background-clip: border-box;
+    border-radius: 3pt;
 
-    border-width: 2px;
-    border-radius: 6px;
-    border-top-color: color-mix(in srgb, white, transparent 50%);
-    border-right-color: color-mix(in srgb, white, transparent 82%);
-    border-left-color: color-mix(in srgb, white, transparent 82%);
-    border-bottom-color: color-mix(in srgb, white, transparent 75%);
+    padding: 5pt 10pt;
+    margin: 10pt 10pt;
 
-    & img {
-    position: relative;
-    z-index: -1;
-    top: -2px;
-    left: -2px;
-    border-radius: 6px;
+    max-width: 75vw;
+    min-height: fit-content;
 
-    height: calc(100% + 3.5px);
-    width: calc(100% + 3.5px);
+    & h1, & h2, & h3, & h4, & h5, & h6 {
+      margin-top: 0pt;
+    }
 
-}
 }

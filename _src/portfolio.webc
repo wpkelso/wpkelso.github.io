@@ -6,16 +6,19 @@
         <title>Portfolio</title>
 
         <link webc:keep rel="stylesheet” href="https://indestructibletype.com/fonts/Jost.css” type="text/css” charset="utf-8” />
+        <link webc:keep rel="stylesheet" href="/css/paned.css">
         <link webc:keep rel="stylesheet" href="/css/index.css">
     </head>
-    <body>
-        <h1>Portfolio</h1>
-        <navmenu></navmenu>
+    <body class="horizontal-paned">
+        <header class="start-child">
+            <h1>Portfolio</h1>
+            <navmenu></navmenu>
+        </header>
 
-        <section>
+        <section class="end-child">
             <h2>Projects</h2>
 
-            <section>
+            <section class="card">
                 <h3>Pin-out Generator</h3>
                 <p>
                     Templates and a Python script for easily generating
@@ -24,7 +27,7 @@
                 <a href="">Explore</a>
             </section>
 
-            <section>
+            <section class="card">
                 <h3>AquaPack Robotics</h3>
                 <p>
                     Expanding on the existing logo and wordmark for AquaPack Robotics at
@@ -34,10 +37,8 @@
                 <a href="">Explore</a>
             </section>
 
-            <section>
+            <section class="card">
                 <h3>Slate</h3>
-                <img src="/img/slate-splash.png" alt="slate-splash.png"
-                    width="400" />
                 <p>
                     A &ldquo;dumb as rocks&rdquo; text editor, designed for
                     elementary <abbr title="Operating System">os</abbr>.
@@ -45,27 +46,23 @@
                 <a href="https://github.com/wpkelso/slate">Explore</a>
             </section>
 
-            <section>
+            <section class="card">
                 <h3>Expandtheon</h3>
                 <p>
                     An opinionated take on third-party icon support for
                     elementary <abbr title="Operating System">os</abbr>.
                 </p>
-                <a href="https://github.com/ellie-commons/expandtheon">Explore</a>
+                <a href="https://github.com/ellie-commons/expandtheon">GitHub</a>
             </section>
 
-            <section>
+            <section class="card">
                 <h3>Jorts Icons</h3>
-                <img src="/img/jorts-64-base.svg" alt="jorts-64-base.svg"
-                width="200" />
-                <img src="/img/jorts-64-pride.svg" alt="jorts-64-pride.svg"
-                    width="200" />
                 <p>
                     Refresh &ndash; and Pride variant &ndash; of the icon for
                     Jorts, a sticky notes app designed for
                     elementary <abbr title="Operating System">os</abbr>.
                 </p>
-                <a href="">Explore</a>
+                <a href="https://github.com/ellie-commons/jorts">GitHub</a>
             </section>
 
         </section>

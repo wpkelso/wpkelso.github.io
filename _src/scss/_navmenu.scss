@@ -6,10 +6,7 @@
         padding: 0;
     }
 
-    & a {
-        &:after {
-            content: "🡲";
-            margin-left: 0.1em;
-        }
+    & a:after {
+      content: "";
     }
 }
