@@ -1,17 +1,20 @@
-.horizontal-paned {
+@media (min-width: 800pt) {
+  .horizontal-paned {
     display: grid;
     grid: auto / 1fr 1fr;
 
     min-width: 200pt;
 
-    &.start-child {
-        position: sticky;
-        top: 16pt;
+    & .start-child {
+      position: sticky;
 
-        grid-column: 1 / 2;
+      grid-column: 1 / 2;
     }
 
-    &.end-child {
-        grid-column: 2 / 3;
+    & .end-child {
+      // Align headings on baseline
+      margin-top: 10pt;
+      grid-column: 2 / 3;
     }
+  }
 }
