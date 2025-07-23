@@ -4,6 +4,7 @@
 @use "link.scss";
 @use "abbr.scss";
 @use "button.scss";
+@use "list.scss";
 
 @use "card.scss";
 @use "navmenu.scss";
@@ -14,4 +15,5 @@ body {
 
     max-width: 600pt;
     margin: auto;
+    padding: 0 20pt;
 }

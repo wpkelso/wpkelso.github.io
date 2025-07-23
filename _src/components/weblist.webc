@@ -1,0 +1,28 @@
+<a id="github" href="https://github.com/wpkelso">wpkelso</a>
+<a id="mastodon" href="https://mastodon.online/@mirlo">mirlo</a>
+
+<style webc:keep webc:scoped>
+    :host a {
+        display: block;
+        width: fit-content;
+        position: relative;
+        left: -1em;
+    }
+
+    :host a::before {
+        font: var(--fa-font-brands);
+        display: inline-block;
+        position: relative;
+        left: -0.5em;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    #github::before {
+        content: "\f113";
+    }
+
+    #mastodon::before {
+        content: "\f4f6";
+    }
+</style>

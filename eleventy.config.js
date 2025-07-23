@@ -9,6 +9,7 @@ export default function(eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy("_src/img");
     eleventyConfig.addPassthroughCopy("_src/fonts");
+    eleventyConfig.addPassthroughCopy("_src/css");
 
 	eleventyConfig.addPlugin(pluginWebc, {
         // Glob to find no-import global components

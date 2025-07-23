@@ -226,7 +226,7 @@ $LAVENDER-900: #2a0053;
         --bg-l1-color: var(--color-parchment-100);
         --bg-l2-color: var(--color-parchment-200);
         --bg-l3-color: var(--color-parchment-300);
-        --border-color: color-mix(in srgb, #{$INK-900}, transparent 93%);
+        --border-color: color-mix(in oklch, black, transparent 93%);
 
         --highlight-color-top: rgba(255, 255, 255, 1);
         --highlight-color-side: rgba(255, 255, 255, 0.3);
@@ -244,7 +244,7 @@ $LAVENDER-900: #2a0053;
         --bg-l1-color: var(--color-ink-700);
         --bg-l2-color: var(--color-ink-800);
         --bg-l3-color: var(--color-ink-900);
-        --border-color: color-mix(in srgb, black, transparent 70%);
+        --border-color: color-mix(in oklch, black, transparent 70%);
 
         --highlight-color-top: rgba(255, 255, 255, 0.25);
         --highlight-color-side: rgba(255, 255, 255, 0.07);

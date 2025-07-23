@@ -6,6 +6,11 @@
         <title>Homepage</title>
 
         <link webc:keep rel="stylesheet” href="https://indestructibletype.com/fonts/Jost.css” type="text/css” charset="utf-8” />
+
+        <link webc:keep rel="stylesheet" href="/css/fontawesome.css">
+        <link webc:keep rel="stylesheet" href="/css/brands.css">
+        <link webc:keep rel="stylesheet" href="/css/regular.css">
+
         <link webc:keep rel="stylesheet" href="/css/paned.css">
         <link webc:keep rel="stylesheet" href="/css/index.css">
     </head>
@@ -13,13 +18,15 @@
         <header class="start-child">
             <h1>William Kelso</h1>
             <navmenu></navmenu>
+            <weblist></weblist>
+            <copyright></copyright>
         </header>
 
         <section class="end-child">
             <h2>About</h2>
             <p>
                 Hello, I&rsquo;m William.
-                I am an unashamed nerd with a passion for computers, all things design, coffee,
+                I am a nerd with a passion for computers, all things design, coffee,
                 and weasels, among other interests.
             </p>
 
@@ -96,6 +103,13 @@
                         <em>Handmade Cities</em>, Plini
                     </li>
                 </ul>
+            </section>
+
+            <section>
+                <h3>Assorted</h3>
+                <p>
+                    Sharing articles, projects, etc. from around the web.
+                </p>
             </section>
         </section>
     </body>

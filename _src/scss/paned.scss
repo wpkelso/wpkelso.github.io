@@ -1,12 +1,14 @@
-@media (min-width: 800pt) {
+@media (min-width: 700pt) {
   .horizontal-paned {
     display: grid;
-    grid: auto / 1fr 1fr;
+    grid: auto / 1fr 2fr;
+    align-items: start;
 
     min-width: 200pt;
 
     & .start-child {
       position: sticky;
+      top: 0;
 
       grid-column: 1 / 2;
     }

@@ -6,6 +6,11 @@
         <title>Portfolio</title>
 
         <link webc:keep rel="stylesheet” href="https://indestructibletype.com/fonts/Jost.css” type="text/css” charset="utf-8” />
+
+        <link webc:keep rel="stylesheet" href="/css/fontawesome.css">
+        <link webc:keep rel="stylesheet" href="/css/brands.css">
+        <link webc:keep rel="stylesheet" href="/css/regular.css">
+
         <link webc:keep rel="stylesheet" href="/css/paned.css">
         <link webc:keep rel="stylesheet" href="/css/index.css">
     </head>
@@ -13,6 +18,8 @@
         <header class="start-child">
             <h1>Portfolio</h1>
             <navmenu></navmenu>
+            <weblist></weblist>
+            <copyright></copyright>
         </header>
 
         <section class="end-child">
@@ -24,7 +31,7 @@
                     Templates and a Python script for easily generating
                     color-coded connector pin-outs.
                 </p>
-                <a href="">Explore</a>
+                <a href="https://github.com/wpkelso/pinout-generator/">Github</a>
             </section>
 
             <section class="card">
@@ -34,7 +41,6 @@
                     <abbr title="North Carolina">nc</abbr> State
                     University to accommodate more applications.
                 </p>
-                <a href="">Explore</a>
             </section>
 
             <section class="card">
@@ -43,7 +49,7 @@
                     A &ldquo;dumb as rocks&rdquo; text editor, designed for
                     elementary <abbr title="Operating System">os</abbr>.
                 </p>
-                <a href="https://github.com/wpkelso/slate">Explore</a>
+                <a href="https://github.com/wpkelso/slate">Github</a>
             </section>
 
             <section class="card">

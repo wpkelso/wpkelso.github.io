@@ -1,7 +1,15 @@
 a {
-    text-decoration: solid underline color-mix(in srgb, currentcolor, transparent 50%) 2pt;
+    --underline-color: color-mix(in srgb, currentcolor, transparent 50%);
+
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: var(--underline-color);
+    -webkit-text-decoration-color: var(--underline-color);
+    text-decoration-thickness: 2pt;
     text-decoration-skip-ink: none;
     text-decoration-skip: none;
+
+    transition: all 50ms;
 
     &:link {
         color: var(--link-unvisited-color);
