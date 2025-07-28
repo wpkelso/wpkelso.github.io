@@ -17,6 +17,7 @@
     <body class="horizontal-paned">
         <header class="start-child">
             <h1>William Kelso</h1>
+            <img src="/img/headshot.jpg" width="248" />
             <navmenu></navmenu>
             <weblist></weblist>
             <copyright></copyright>
@@ -110,6 +111,9 @@
                 <p>
                     Sharing articles, projects, etc. from around the web.
                 </p>
+                <ul>
+                    <li></li>
+                </ul>
             </section>
         </section>
     </body>

@@ -2,6 +2,10 @@
 <a id="mastodon" href="https://mastodon.online/@mirlo">mirlo</a>
 
 <style webc:keep webc:scoped>
+    :host {
+        margin: 1rem 0;
+    }
+
     :host a {
         display: block;
         width: fit-content;

@@ -17,3 +17,10 @@ body {
     margin: auto;
     padding: 0 20pt;
 }
+
+img {
+  border: 8pt solid white;
+  outline: 1pt solid color-mix(in srgb, black, transparent 85%);
+  box-shadow: 0 1pt 4pt color-mix(in srgb, black, transparent 85%);
+  box-shadow: 0 1pt 4pt 1pt color-mix(in srgb, black, transparent 85%);
+}
