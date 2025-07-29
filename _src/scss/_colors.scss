@@ -235,6 +235,9 @@ $LAVENDER-900: #2a0053;
         --link-unvisited-color: var(--color-blueberry-700);
         --link-visited-color: var(--color-lavender-700);
         --link-active-color: var(--color-sumac-700);
+
+        --category-code-color: var(--color-foxglove-700);
+        --category-design-color: var(--color-marigold-700);
     }
 }
 
@@ -254,5 +257,7 @@ $LAVENDER-900: #2a0053;
         --link-visited-color: var(--color-lavender-300);
         --link-active-color: var(--color-sumac-300);
 
+        --category-code-color: var(--color-foxglove-300);
+        --category-design-color: var(--color-marigold-300);
     }
 }

@@ -15,4 +15,13 @@
       margin-top: 0pt;
     }
 
+    & i {
+      float: right;
+      margin: 0 1pt;
+
+      font: var(--fa-font-solid);
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+    }
+
 }

@@ -23,11 +23,11 @@
             <copyright></copyright>
         </header>
 
-        <section class="end-child">
+        <main class="end-child">
             <h2>About</h2>
             <p>
                 Hello, I&rsquo;m William.
-                I am a nerd with a passion for computers, all things design, coffee,
+                I&rsquo;m a nerd with a passion for computers, all things design, coffee,
                 and weasels, among other interests.
             </p>
 
@@ -112,9 +112,13 @@
                     Sharing articles, projects, etc. from around the web.
                 </p>
                 <ul>
-                    <li></li>
+                    <li><a
+                        class="external"
+                        href="https://owickstrom.github.io/the-monospace-web/">
+                        The Monospace Web - A minimalist design exploration
+                    </a></li>
                 </ul>
             </section>
-        </section>
+        </main>
     </body>
 </html>

@@ -9,7 +9,7 @@
 
         <link webc:keep rel="stylesheet" href="/css/fontawesome.css">
         <link webc:keep rel="stylesheet" href="/css/brands.css">
-        <link webc:keep rel="stylesheet" href="/css/regular.css">
+        <link webc:keep rel="stylesheet" href="/css/solid.css">
 
         <link webc:keep rel="stylesheet" href="/css/paned.css">
         <link webc:keep rel="stylesheet" href="/css/index.css">
@@ -23,11 +23,13 @@
             <copyright></copyright>
         </header>
 
-        <section class="end-child">
+        <main class="end-child">
             <h2>Projects</h2>
 
             <section class="card">
                 <h3>Pin-out Generator</h3>
+                <i class="category-code">&#xf5fc;</i>
+                <i class="category-design">&#xf55d;</i>
                 <p>
                     Templates and a Python script for easily generating
                     color-coded connector pin-outs.
@@ -37,6 +39,7 @@
 
             <section class="card">
                 <h3>AquaPack Robotics</h3>
+                <i class="category-design">&#xf55d;</i>
                 <p>
                     Expanding on the existing logo and wordmark for AquaPack Robotics at
                     <abbr title="North Carolina">nc</abbr> State
@@ -46,6 +49,8 @@
 
             <section class="card">
                 <h3>Slate</h3>
+                <i class="category-code">&#xf5fc;</i>
+                <i class="category-design">&#xf55d;</i>
                 <p>
                     A &ldquo;dumb as rocks&rdquo; text editor, designed for
                     elementary <abbr title="Operating System">os</abbr>.
@@ -55,6 +60,7 @@
 
             <section class="card">
                 <h3>Expandtheon</h3>
+                <i class="category-design">&#xf55d;</i>
                 <p>
                     An opinionated take on third-party icon support for
                     elementary <abbr title="Operating System">os</abbr>.
@@ -64,6 +70,7 @@
 
             <section class="card">
                 <h3>Jorts Icons</h3>
+                <i class="category-design">&#xf55d;</i>
                 <p>
                     Refresh &ndash; and Pride variant &ndash; of the icon for
                     Jorts, a sticky notes app designed for
@@ -72,6 +79,6 @@
                 <a href="https://github.com/ellie-commons/jorts">GitHub</a>
             </section>
 
-        </section>
+        </main>
     </body>
 </html>

@@ -27,7 +27,7 @@ a {
         color: var(--link-active-color);
     }
 
-    &:after {
+    &.external:after {
         content: "➚";
         margin-left: 0.1em;
 

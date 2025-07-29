@@ -1,5 +1,5 @@
-<a id="github" href="https://github.com/wpkelso">wpkelso</a>
-<a id="mastodon" href="https://mastodon.online/@mirlo">mirlo</a>
+<a class="external" id="github" href="https://github.com/wpkelso">wpkelso</a>
+<a class="external" id="mastodon" href="https://mastodon.online/@mirlo">mirlo</a>
 
 <style webc:keep webc:scoped>
     :host {
