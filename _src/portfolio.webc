@@ -34,7 +34,11 @@
                     Templates and a Python script for easily generating
                     color-coded connector pin-outs.
                 </p>
-                <a href="https://github.com/wpkelso/pinout-generator/">Github</a>
+                <a
+                    class="external"
+                    href="https://github.com/wpkelso/pinout-generator/">
+                    Github
+                </a>
             </section>
 
             <section class="card">
@@ -55,7 +59,11 @@
                     A &ldquo;dumb as rocks&rdquo; text editor, designed for
                     elementary <abbr title="Operating System">os</abbr>.
                 </p>
-                <a href="https://github.com/wpkelso/slate">Github</a>
+                <a
+                    class="external"
+                    href="https://github.com/wpkelso/slate">
+                    Github
+                </a>
             </section>
 
             <section class="card">
@@ -65,7 +73,11 @@
                     An opinionated take on third-party icon support for
                     elementary <abbr title="Operating System">os</abbr>.
                 </p>
-                <a href="https://github.com/ellie-commons/expandtheon">GitHub</a>
+                <a
+                    class="external"
+                    href="https://github.com/ellie-commons/expandtheon">
+                    GitHub
+                </a>
             </section>
 
             <section class="card">
@@ -76,7 +88,11 @@
                     Jorts, a sticky notes app designed for
                     elementary <abbr title="Operating System">os</abbr>.
                 </p>
-                <a href="https://github.com/ellie-commons/jorts">GitHub</a>
+                <a
+                    class="external"
+                    href="https://github.com/ellie-commons/jorts">
+                    GitHub
+                </a>
             </section>
 
         </main>
