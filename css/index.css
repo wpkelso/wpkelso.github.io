@@ -114,6 +114,8 @@
     --link-unvisited-color: var(--color-blueberry-700);
     --link-visited-color: var(--color-lavender-700);
     --link-active-color: var(--color-sumac-700);
+    --category-code-color: var(--color-foxglove-700);
+    --category-design-color: var(--color-marigold-700);
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -129,6 +131,8 @@
     --link-unvisited-color: var(--color-blueberry-300);
     --link-visited-color: var(--color-lavender-300);
     --link-active-color: var(--color-sumac-300);
+    --category-code-color: var(--color-foxglove-300);
+    --category-design-color: var(--color-marigold-300);
   }
 }
 @font-face {
@@ -246,7 +250,7 @@ a:hover {
 a:active {
   color: var(--link-active-color);
 }
-a:after {
+a.external:after {
   content: "➚";
   margin-left: 0.1em;
   text-decoration: none;
@@ -304,6 +308,13 @@ ul, ol {
 .card h1, .card h2, .card h3, .card h4, .card h5, .card h6 {
   margin-top: 0pt;
 }
+.card i {
+  float: right;
+  margin: 0 1pt;
+  font: var(--fa-font-solid);
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
 
 .navbar {
   margin: auto;
@@ -325,10 +336,18 @@ body {
 }
 
 img {
+  background-clip: border-box;
   border: 8pt solid white;
-  outline: 1pt solid color-mix(in srgb, black, transparent 85%);
-  box-shadow: 0 1pt 4pt color-mix(in srgb, black, transparent 85%);
-  box-shadow: 0 1pt 4pt 1pt color-mix(in srgb, black, transparent 85%);
+  outline: 1px solid var(--border-color);
+  box-shadow: 0 1pt 1pt color-mix(in srgb, black, transparent 85%), 0 1pt 1pt 1pt color-mix(in srgb, black, transparent 85%);
+}
+
+.category-code {
+  color: var(--category-code-color);
+}
+
+.category-design {
+  color: var(--category-design-color);
 }
 
 /*# sourceMappingURL=index.css.map */
