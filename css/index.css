@@ -199,6 +199,7 @@
 }
 body {
   font-family: "Rosario", serif;
+  hyphens: auto;
 }
 
 h1, h2, h3 {
@@ -225,35 +226,6 @@ p, ul, ol {
 
 abbr {
   font-variant: small-caps;
-}
-
-a {
-  --underline-color: color-mix(in srgb, currentcolor, transparent 50%);
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-color: var(--underline-color);
-  -webkit-text-decoration-color: var(--underline-color);
-  text-decoration-thickness: 2pt;
-  text-decoration-skip-ink: none;
-  text-decoration-skip: none;
-  transition: all 50ms;
-}
-a:link {
-  color: var(--link-unvisited-color);
-}
-a:visited {
-  color: var(--link-visited-color);
-}
-a:hover {
-  text-decoration-thickness: 3pt;
-}
-a:active {
-  color: var(--link-active-color);
-}
-a.external:after {
-  content: "➚";
-  margin-left: 0.1em;
-  text-decoration: none;
 }
 
 abbr {
@@ -289,6 +261,43 @@ button:active {
 button.image {
   min-height: 2rem;
   min-width: 2rem;
+}
+
+figure {
+  margin: 0 0 1rem 0;
+}
+
+figcaption {
+  font-size: smaller;
+}
+
+a {
+  --underline-color: color-mix(in srgb, currentcolor, transparent 50%);
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: var(--underline-color);
+  -webkit-text-decoration-color: var(--underline-color);
+  text-decoration-thickness: 2pt;
+  text-decoration-skip-ink: none;
+  text-decoration-skip: none;
+  transition: all 50ms;
+}
+a:link {
+  color: var(--link-unvisited-color);
+}
+a:visited {
+  color: var(--link-visited-color);
+}
+a:hover {
+  text-decoration-thickness: 3pt;
+}
+a:active {
+  color: var(--link-active-color);
+}
+a.external:after {
+  content: "➚";
+  margin-left: 0.1em;
+  text-decoration: none;
 }
 
 ul, ol {
@@ -333,6 +342,22 @@ img {
   border: 8pt solid white;
   outline: 1px solid var(--border-color);
   box-shadow: 0 1pt 1pt color-mix(in srgb, black, transparent 85%), 0 1pt 1pt 1pt color-mix(in srgb, black, transparent 85%);
+}
+
+ul > details {
+  display: list-item;
+  list-style: none;
+  margin-left: -1em;
+  transition: all 200ms;
+}
+ul > details summary {
+  cursor: pointer;
+  text-indent: 1em hanging;
+}
+ul > details p {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: smaller;
 }
 
 section {
