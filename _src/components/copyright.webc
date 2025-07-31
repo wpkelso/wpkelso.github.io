@@ -1,1 +1,8 @@
-<p>&copy; William Kelso 2025.</p>
+&copy; William Kelso 2025.
+
+<style webc:keep webc:scoped>
+    :host {
+        display: block;
+        margin-top: 1rem;
+    }
+</style>

@@ -58,8 +58,7 @@
 	font-style: italic;
 	font-weight: 600;
 }
-@font-face {
-	font-family: 'Rosario';
+@font-face { font-family: 'Rosario';
 	src: url('/fonts/Rosario/eot/Rosario-Bold.eot');
 	src: url('/fonts/Rosario/eot/Rosario-Bold.eot?#iefix') format('embedded-opentype'),
 		 url('/fonts/Rosario/woff2/Rosario-Bold.woff2') format('woff2'),
@@ -93,7 +92,7 @@ body {
 h1, h2, h3 {
     font-family: "Jost", "Rosario", serif;
     margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 
 h1, h2 {
@@ -109,7 +108,7 @@ a, p, li {
 }
 
 p, ul, ol {
-  margin: 1rem 0;
+  margin: 0 0 1rem 0;
 }
 
 abbr {

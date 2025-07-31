@@ -8,8 +8,8 @@ button {
 
     @include components.extrude;
 
-    padding: 3px 6px;
-    margin: 6px 0px;
+    padding: 3pt 6pt;
+    margin: 6pt 0pt;
     min-width: 8rem;
 
     text-decoration: none;
@@ -23,5 +23,10 @@ button {
         border-bottom: 1px solid var(--highlight-color-top);
         box-shadow: none;
         box-shadow: inset 0px 1px 1px color-mix(in srgb, black, transparent 85%), inset 0px 1px 1px 1px color-mix(in srgb, black, transparent 85%);
+    }
+
+    &.image {
+      min-height: 2rem;
+      min-width: 2rem;
     }
 }

@@ -26,10 +26,21 @@
         <main class="end-child">
             <h2>Projects</h2>
 
-            <section class="card">
-                <h3>Pin-out Generator</h3>
-                <i class="category-code">&#xf5fc;</i>
-                <i class="category-design">&#xf55d;</i>
+            <ul>
+                <button class="image" onclick="alert('You found a todo!');">
+                    <i class="category-code fontawesome-icon">&#xf5fc;</i>
+                </button>
+                <button class="image" onclick="alert('You found a todo!');">
+                    <i class="category-design fontawesome-icon">&#xf55d;</i>
+                </button>
+            </ul>
+
+            <section>
+                <h3 class="project-title">
+                    Pin-out Generator
+                </h3>
+                <i class="category-code fontawesome-icon">&#xf5fc;</i>
+                <i class="category-design fontawesome-icon">&#xf55d;</i>
                 <p>
                     Templates and a Python script for easily generating
                     color-coded connector pin-outs.
@@ -41,9 +52,9 @@
                 </a>
             </section>
 
-            <section class="card">
-                <h3>AquaPack Robotics</h3>
-                <i class="category-design">&#xf55d;</i>
+            <section>
+                <h3 class="project-title">AquaPack Robotics Brand</h3>
+                <i class="category-design fontawesome-icon">&#xf55d;</i>
                 <p>
                     Expanding on the existing logo and wordmark for AquaPack Robotics at
                     <abbr title="North Carolina">nc</abbr> State
@@ -51,10 +62,10 @@
                 </p>
             </section>
 
-            <section class="card">
-                <h3>Slate</h3>
-                <i class="category-code">&#xf5fc;</i>
-                <i class="category-design">&#xf55d;</i>
+            <section>
+                <h3 class="project-title">Slate</h3>
+                <i class="category-code fontawesome-icon">&#xf5fc;</i>
+                <i class="category-design fontawesome-icon">&#xf55d;</i>
                 <p>
                     A &ldquo;dumb as rocks&rdquo; text editor, designed for
                     elementary <abbr title="Operating System">os</abbr>.
@@ -64,11 +75,16 @@
                     href="https://github.com/wpkelso/slate">
                     Github
                 </a>
+                <a
+                    class="external"
+                    href="https://appcenter.elementary.io/io.github.wpkelso.slate/">
+                    AppCenter
+                </a>
             </section>
 
-            <section class="card">
-                <h3>Expandtheon</h3>
-                <i class="category-design">&#xf55d;</i>
+            <section>
+                <h3 class="project-title">Expandtheon</h3>
+                <i class="category-design fontawesome-icon">&#xf55d;</i>
                 <p>
                     An opinionated take on third-party icon support for
                     elementary <abbr title="Operating System">os</abbr>.
@@ -80,9 +96,9 @@
                 </a>
             </section>
 
-            <section class="card">
-                <h3>Jorts Icons</h3>
-                <i class="category-design">&#xf55d;</i>
+            <section>
+                <h3 class="project-title">Jorts Icons</h3>
+                <i class="category-design fontawesome-icon">&#xf55d;</i>
                 <p>
                     Refresh &ndash; and Pride variant &ndash; of the icon for
                     Jorts, a sticky notes app designed for

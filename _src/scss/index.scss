@@ -9,6 +9,8 @@
 @use "card.scss";
 @use "navmenu.scss";
 
+@use "fontawesome.scss";
+
 body {
     color: var(--fg-color);
     background-color: var(--bg-l1-color);
@@ -21,9 +23,20 @@ body {
 img {
   background-clip: border-box;
 
+  margin: 0.5rem 0;
+
   border: 8pt solid white;
   outline: 1px solid var(--border-color);
   box-shadow: 0 1pt 1pt color-mix(in srgb, black, transparent 85%), 0 1pt 1pt 1pt color-mix(in srgb, black, transparent 85%);
+}
+
+section {
+  margin: 0 0 2rem 0;
+}
+
+.project-title {
+  display: inline-block;
+  margin-right: 1rem;
 }
 
 .category-code {

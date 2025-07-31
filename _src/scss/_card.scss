@@ -1,12 +1,8 @@
 @use "components.scss";
 
 .card {
-    @include components.extrude;
-
     background-clip: border-box;
-
-    padding: 5pt 10pt;
-    margin: 10pt 0pt;
+    border-collapse: collapse;
 
     max-width: 75vw;
     min-height: fit-content;
@@ -14,14 +10,4 @@
     & h1, & h2, & h3, & h4, & h5, & h6 {
       margin-top: 0pt;
     }
-
-    & i {
-      float: right;
-      margin: 0 1pt;
-
-      font: var(--fa-font-solid);
-      text-rendering: auto;
-      -webkit-font-smoothing: antialiased;
-    }
-
 }
