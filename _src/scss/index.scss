@@ -1,9 +1,10 @@
 @use "colors.scss";
 @use "typography.scss";
 
-@use "link.scss";
 @use "abbr.scss";
 @use "button.scss";
+@use "figure.scss";
+@use "link.scss";
 @use "list.scss";
 
 @use "card.scss";
@@ -28,6 +29,25 @@ img {
   border: 8pt solid white;
   outline: 1px solid var(--border-color);
   box-shadow: 0 1pt 1pt color-mix(in srgb, black, transparent 85%), 0 1pt 1pt 1pt color-mix(in srgb, black, transparent 85%);
+}
+
+ul > details {
+  display: list-item;
+  list-style: none;
+  margin-left: -1em;
+
+  transition: all 200ms;
+
+  & summary {
+    cursor: pointer;
+    text-indent: 1em hanging;
+  }
+
+  & p {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: smaller;
+  }
 }
 
 section {
