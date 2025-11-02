@@ -204,15 +204,16 @@ body {
 
 h1, h2, h3 {
   font-family: "Jost", "Rosario", serif;
-  margin-top: 2rem;
   margin-bottom: 0;
 }
 
 h1, h2 {
   letter-spacing: 1pt;
+  margin-top: 2rem;
 }
 
 h3 {
+  margin-top: 1rem;
   letter-spacing: 0.65pt;
 }
 
