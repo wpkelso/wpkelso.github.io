@@ -25,7 +25,7 @@
 
         <main class="end-child">
             <h2>Projects</h2>
-
+            <!--
             <ul>
                 <button class="image" onclick="alert('You found a todo!');">
                     <i class="category-code fontawesome-icon">&#xf5fc;</i>
@@ -34,6 +34,7 @@
                     <i class="category-design fontawesome-icon">&#xf55d;</i>
                 </button>
             </ul>
+            -->
 
             <section>
                 <h3 class="project-title">
@@ -86,7 +87,7 @@
                 <h3 class="project-title">Expandtheon</h3>
                 <i class="category-design fontawesome-icon">&#xf55d;</i>
                 <p>
-                    An opinionated take on third-party icon support for
+                    A take on third-party icon support for
                     elementary <abbr title="Operating System">os</abbr>.
                 </p>
                 <a
@@ -100,7 +101,7 @@
                 <h3 class="project-title">Jorts Icons</h3>
                 <i class="category-design fontawesome-icon">&#xf55d;</i>
                 <p>
-                    Refresh &ndash; and Pride variant &ndash; of the icon for
+                    Authored a refreshed base icon and seasonal icons for
                     Jorts, a sticky notes app designed for
                     elementary <abbr title="Operating System">os</abbr>.
                 </p>
@@ -111,6 +112,23 @@
                 </a>
             </section>
 
+
+            <section>
+                <h3 class="project-title">Detective</h3>
+                <i class="category-code fontawesome-icon">&#xf5fc;</i>
+                <i class="category-design fontawesome-icon">&#xf55d;</i>
+                <p>
+                    Improved the fuzzy search algorithm and created a new icon for
+                    a MacOS Spotlight-like search and application launcher,
+                    designed for elementary <abbr title="Operating
+                        System">os</abbr>.
+                </p>
+                <a
+                    class="external"
+                    href="https://github.com/leolost2605/detective/">
+                    GitHub
+                </a>
+            </section>
         </main>
     </body>
 </html>
