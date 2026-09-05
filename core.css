@@ -1,0 +1,55 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-bg: #fffaf4;
+    --color-mg: #5a5a5a;
+    --color-fg: #0e1019;
+
+    --color-blk: #232323;
+    --color-gry: #5a5a5a;
+    --color-slv: #fffaf4;
+    --color-wht: #fff;
+
+    --color-red: #d61f17;
+    --color-pur: #6d43a6;
+    --color-mag: #8951d6;
+    --color-blu: #056dbc;
+    --color-lbl: #0283e5;
+    --color-cyn: #02adbd;
+    --color-grn: #4c7e00;
+    --color-ygn: #81cc0f;
+    --color-ylw: #c88600;
+    --color-org: #ecae0a;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #0e1019;
+    --color-mg: #5a5a5a;
+    --color-fg: #fffaf4;
+
+    --color-blk: #0e1019;
+    --color-gry: #232323;
+    --color-slv: #5a5a5a;
+    --color-wht: #fffaf4;
+
+    --color-red: #ff000f;
+    --color-pur: #9a5feb;
+    --color-mag: #e67bf7;
+    --color-blu: #0092ff;
+    --color-lbl: #4dbcff;
+    --color-cyn: #00d8eb;
+    --color-grn: #0eb75b;
+    --color-ygn: #8ce10b;
+    --color-ylw: #ffb900;
+    --color-org: #f87710;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Jost', sans;
+}
+
+body {
+  font-family: sans;
+}
